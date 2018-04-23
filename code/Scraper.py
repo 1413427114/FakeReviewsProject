@@ -150,7 +150,7 @@ def getReviews(asin, amazon_url):
         'filterByStar': 'all_stars',  #example 'five_star'
         'formatType': '',  #
         'pageNumber': 0,
-        'pageSize': 10,
+        'pageSize': 50,
         'reftag': '',
         'reviewerType': 'all_reviews',  #example 'avp_only_reviews'
         'scope': 'reviewsAjax',
@@ -170,11 +170,11 @@ def getReviews(asin, amazon_url):
        
         # rev_index is the number of the current review in all_reviews_list
         rev_index = len(all_reviews_list) + 1
+        print ("Processing page "+str(i)+".")
         data_reviews = parseResponse(page_response, amazon_url, rev_index)
         
         if data_reviews == {}: break
         
-        print ("Processing page "+str(i)+".")
         i+=1
         all_reviews_list = dict(all_reviews_list.items() + data_reviews.items())
         
