@@ -226,19 +226,3 @@ def anomalyDetection(asin):
     printToCsv(asin, data_frame)
     
     return result
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

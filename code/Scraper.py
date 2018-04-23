@@ -8,6 +8,7 @@ from time import sleep
 import random
 import AuthorCheck as ac
 
+execute_sleep = False
 
 def parseDate(date_to_parse):
     string_of_date = (''.join(date_to_parse)).split('il ')[1]
@@ -98,8 +99,9 @@ def parseResponse(response, amazon_url, rev_index):
             latest_author_reviews = ac.getLatestCustomerReviewAndTextAnalisys(author_code, amazon_url)
             
             # set a sleeping time
-            sleep(random.uniform(2,4))
-            #sleep(2)
+            if execute_sleep:
+                #sleep(random.uniform(2,4))
+                sleep(2)
             
             review_summary = {
                     'reviewId':review_id,
@@ -131,28 +133,37 @@ def parseResponse(response, amazon_url, rev_index):
 def getReviews(asin, amazon_url):  
     # Add some recent user agent to prevent amazon from blocking the request 
     # Find some chrome user agent strings  here https://udger.com/resources/ua-list/browser-detail?browser=Chrome
-    headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'}
+    user_agents = ['Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36',
+                   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.1 Safari/537.36',
+                   'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36',
+                   'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36',
+                   'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2224.3 Safari/537.36',
+                   'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36',
+                   'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36']
+    headers = {'User-Agent': user_agents[random.randint(0, (len(user_agents)-1))]}
     
+    #parameters for ajax request
     data = {
         'asin': asin,
         'deviceType': 'desktop',
-        'filterByKeyword': '',
-        'filterByStar': '',
-        'formatType': '',
+        'filterByKeyword': '',  #example 'ciao+mamma+...'
+        'filterByStar': 'all_stars',  #example 'five_star'
+        'formatType': '',  #
         'pageNumber': 0,
         'pageSize': 10,
         'reftag': '',
-        'reviewerType': 'all_reviews',
-        'scope': 'reviewsAjax3',
+        'reviewerType': 'all_reviews',  #example 'avp_only_reviews'
+        'scope': 'reviewsAjax',
         'shouldAppend': 'undefined',
-        'sortBy': ''
+        'sortBy': 'recent'
     }
     
     all_reviews_list = {}
     i = 1
     while True:        
-        data['pageNumber']=i
-        data['reftag']= 'cm_cr_getr_d_paging_btm_'+str(i)
+        data['pageNumber'] = i
+        data['reftag'] = 'cm_cr_getr_d_paging_btm_'+str(i)
+        data['scope'] = 'reviewsAjax'+str(i)
         ajax_request_url = amazon_url + '/ss/customer-reviews/ajax/reviews/get/ref=cm_cr_arp_d_paging_btm_'+str(i)
         response = requests.post(ajax_request_url, data, headers = headers)
         page_response = response.text
@@ -168,8 +179,8 @@ def getReviews(asin, amazon_url):
         all_reviews_list = dict(all_reviews_list.items() + data_reviews.items())
         
         # set a sleeping time
-        sleep(random.uniform(2,4))
-        #sleep(2)
+        if execute_sleep:
+            sleep(random.uniform(1,3))
     
     return all_reviews_list
 
@@ -214,7 +225,7 @@ def parseProduct(asin, amazon_url, retrying_time):
          if not original_price:
              original_price = sale_price
              
-         # retrying in case of captcha
+         # retrying in case of captcha (only first time)
          if not name:
              if retrying_time:
                  raise ValueError('captcha')

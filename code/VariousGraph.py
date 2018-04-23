@@ -8,18 +8,18 @@ import matplotlib.dates as mdates
 from collections import Counter
 
 def reviewsPerDay(reviews_data):
-    rev_per_day = []
+    all_days = []
     for review in reviews_data:
         review_date = reviews_data[review]['reviewPostedDate']
-        rev_per_day.append(review_date)
-    return rev_per_day
+        all_days.append(review_date)
+    return all_days
        
 def reviewsPerUser(reviews_data):
-    rev_per_user = []
+    all_users = []
     for review in reviews_data:
         review_author = reviews_data[review]['reviewAuthor']['code']
-        rev_per_user.append(review_author)
-    return rev_per_user
+        all_users.append(review_author)
+    return all_users
 
 def trigramsPerRev(trigrams_data):
     trigrams_per_rev = []
@@ -28,9 +28,9 @@ def trigramsPerRev(trigrams_data):
         trigrams_per_rev.append(repeated_trigrams)
     return trigrams_per_rev
 
-def plotRevPerDay(rev_per_day, fig, ax):
+def plotRevPerDay(all_days, fig, ax):
     rpd_d = []
-    for d in rev_per_day:
+    for d in all_days:
         try: 
             d = dp.parse(d).strftime('%d %m %Y')
             data = dt.datetime.strptime(d, "%d %m %Y").date()
@@ -47,8 +47,8 @@ def plotRevPerDay(rev_per_day, fig, ax):
     #ax[0].set_ylabel('Frequenza', fontsize = 9)
     plt.show()
     
-def plotRevPerUser(rev_per_user, fig, ax):
-    l, v = zip(*Counter(rev_per_user).items()) 
+def plotRevPerUser(all_users, fig, ax):
+    l, v = zip(*Counter(all_users).items()) 
     labels, values = zip(*Counter(v).items())   
     
     indexes = np.arange(len(labels))
@@ -83,15 +83,15 @@ if __name__ == '__main__':
     review_data = json.load(open('json/sommario_'+asin+'.json'))
     reviews_data = review_data[asin]['reviews']
     trigrams_data = review_data[asin]['trigrams']
-    rev_per_day = reviewsPerDay(reviews_data)
-    rev_per_user = reviewsPerUser(reviews_data)
+    all_days = reviewsPerDay(reviews_data)
+    all_users = reviewsPerUser(reviews_data)
     trigrams_per_rev = trigramsPerRev(trigrams_data)
 
     rest = []
-    for i in range(0,(len(rev_per_day)-len(trigrams_per_rev))): rest.append(0)
-    zipp = rest + trigrams_per_rev
+    for i in range(0,(len(all_days)-len(trigrams_per_rev))): rest.append(0)
+    rest += trigrams_per_rev
     
     fig, ax = plt.subplots(3,1)
-    plotRevPerDay(rev_per_day, fig, ax)
-    plotRevPerUser(rev_per_user, fig, ax)   
-    plotTrigramsPerRep(zipp, fig, ax)
+    plotRevPerDay(all_days, fig, ax)
+    plotRevPerUser(all_users, fig, ax)   
+    plotTrigramsPerRep(rest, fig, ax)

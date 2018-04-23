@@ -3,10 +3,19 @@ import requests
 import json
 from dateutil import parser as dateparser
 import ReviewTextAnalisys as rta
+import random
 
+user_agents = ['Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36',
+               'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0',
+               'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.1 Safari/537.36',
+               'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36',
+               'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36',
+               'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2224.3 Safari/537.36',
+               'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36',
+               'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36']
 
 def getCustomerId(user_code, amazon_domain):
-    header = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'}
+    header = {'User-Agent': user_agents[random.randint(0, (len(user_agents)-1))]}
     customer_url = amazon_domain + "/gp/profile/amzn1.account." + user_code + "/"
     response = requests.get(customer_url, headers=header)
     page_response = response.text
@@ -25,7 +34,7 @@ def getCustomerId(user_code, amazon_domain):
 
 
 def getHelpfulVotesAndTotalReviewsCount(customer_id, amazon_domain):
-    header = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0'}
+    header = {'User-Agent': user_agents[random.randint(0, (len(user_agents)-1))]}
     customer_info_url = amazon_domain + "/hz/gamification/api/contributor/dashboard/" + customer_id
     response = requests.get(customer_info_url, headers=header)
     try:
@@ -46,7 +55,7 @@ def getHelpfulVotesAndTotalReviewsCount(customer_id, amazon_domain):
 
 def getReviews(user_code, offset, amazon_domain):
     header = {
-        'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0',
+        'User-Agent': user_agents[random.randint(0, (len(user_agents)-1))],
         'X-Requested-With': 'XMLHttpRequest',
     }
     customer_rev_url = amazon_domain + "/gp/profile/amzn1.account." + user_code + "/activity_feed?review_offset=" + str(
@@ -88,5 +97,5 @@ def getLatestCustomerReviewAndTextAnalisys(user_code, amazon_domain):
             }
 
             return customer_review
-    return None
+    return {}
 

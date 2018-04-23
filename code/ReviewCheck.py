@@ -228,7 +228,13 @@ def reviewsScore(asin):
     for review in reviews_data:
         id = reviews_data[review]['reviewId']
         reviews_scores[id] = checkReview(reviews_data[review], product_data)
-    
+    print len(reviews_scores)
     return reviews_scores 
     
-    
+if __name__ == '__main__':
+    asin =  'B00PVDMTIC' #'B01LZ1Y47Q' 'B01AXOCCG2' 'B00PVDMTIC'
+    reviews_check_score = reviewsScore(asin)
+
+    f = open('json/analisi_' + asin + '.json', 'w')
+    json.dump(reviews_check_score, f, indent=4)
+    f.close()    
