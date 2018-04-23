@@ -139,7 +139,8 @@ def getResult(data_frame, values):
 
 # print result on json file
 def printToJson(asin, result):
-    f = open('json/anomaly_detection_' + asin + '.json', 'w')
+    #f = open('json/anomaly_detection_' + asin + '.json', 'w')
+    f = open('json/combination_anomaly_detection_' + asin + '.json', 'w')
     json.dump(result, f, indent=4)
     f.close
     
@@ -233,7 +234,8 @@ def applyAlgorithms(df, data):
               'SVM': res_svm
               }
     
-    df = df.drop(columns='category')
+    #df = df.drop(columns='category')
+    df = df.drop('category', axis=1)
     return df, result
 
 
@@ -250,25 +252,34 @@ def anomalyDetection(asin):
     return result
     
 
-'''
+
 def combinationIsolationForest_Cluster(df, data):
-    data_frame, result = isolationForest(df, data)
-    # get anomalous entries only
+    # execute isolation forest
+    data_frame, res_isolationForest = isolationForest(df, data)
+    
     normal_only = data_frame[data_frame.category == 'normal']
-    anomalous_only = data_frame[data_frame.category == 'normal']
+    anomalous_only = data_frame[data_frame.category == 'anomalous']
     data = getFeatures(anomalous_only)
     
+    # execute cluster
     n_cluster = range(1, 3)
     kmeans = [KMeans(n_clusters=i).fit(data) for i in n_cluster]
     
-    df.loc[:,'category'] = kmeans[1].predict(data)
-    df.loc[:,'category'] = df['category'].map({0: 'cluster 1', 1: 'cluster 2'})
+    anomalous_only.loc[:,'category'] = kmeans[1].predict(data)
+    anomalous_only.loc[:,'category'] = anomalous_only['category'].map({0: 'cluster 1', 1: 'cluster 2'})
     #print '\nCluster\n', df['category'].value_counts()
     
-    result = getResult(df, ['cluster 1', 'cluster 2'])
-    return df, result
-    printToJson(asin, result)
-    print 'Execution Completed'
+    res_clustering = getResult(anomalous_only, ['cluster 1', 'cluster 2'])
+    
+    normal_result = getResult(normal_only, ['normal'])
+    
+    final_result = { 'Combination Isolation Forest - Cluster' : {} }
+    final_result['Combination Isolation Forest - Cluster'] = dict(final_result['Combination Isolation Forest - Cluster'].items() + normal_result.items())
+    
+    final_result['Combination Isolation Forest - Cluster'] = dict(final_result['Combination Isolation Forest - Cluster'].items() + {'anomalous': res_clustering}.items())
+            
+    printToJson(asin, final_result)
+    
    
 
 if __name__ == '__main__':
@@ -276,4 +287,3 @@ if __name__ == '__main__':
     data_frame = makeDataFrame(asin)
     data = getFeatures(data_frame)
     combinationIsolationForest_Cluster(data_frame, data)
-'''
