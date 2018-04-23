@@ -70,7 +70,7 @@ if __name__ == '__main__':
     import time
     start_time = time.time()
     
-    #asin =  #'B00PVDMTIC' 'B01LZ1Y47Q' 'B01AXOCCG2' 'B01GPEA1QC'
+    #asin =  #'B00PVDMTIC' 'B01LZ1Y47Q' 'B01AXOCCG2' 'B01GPEA1QC' 'B01MY98XEN'
     #amazon_domain = 'https://www.amazon.it' 
     asin, amazon_domain = readAsinAndDomain()
 
@@ -91,8 +91,8 @@ if __name__ == '__main__':
     print 'done'
     
     print '\nProducing conclusive result . . .'
-    #conclusion = checkFinalResult(asin)
-    conclusion = json.load(open('json/conclusion_'+asin+'.json'))
+    conclusion = checkFinalResult(asin)
+    #conclusion = json.load(open('json/conclusion_'+asin+'.json'))
     print 'done'
 
     data = {

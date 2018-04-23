@@ -97,9 +97,18 @@ def finalResult(asin):
             fake = dict(fake.items() + data.items())
             
     conclusion = {
-        'trustable': trustable,
-        'warning': warning,
-        'fake': fake,
+        'trustable': {
+            'totalCount': len(trustable),
+            'reviews': trustable
+            },
+        'warning': {
+            'totalCount': len(warning),
+            'reviews': warning
+            },
+        'fake': {
+            'totalCount': len(fake),
+            'reviews': fake
+            },
         'bestScore': (min_rev + ' with ' + str(min_score)),
         'worstScore': (max_rev + ' with ' + str(max_score))
     }
