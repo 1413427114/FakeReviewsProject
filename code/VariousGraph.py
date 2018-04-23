@@ -80,7 +80,7 @@ def plotTrigramsPerRep(trigrams_per_rep, fig, ax):
 if __name__ == '__main__':    
     asin = 'B01AXOCCG2' #B00PVDMTIC #B01AXOCCG2 #B01LZ1Y47Q
     
-    review_data = json.load(open('json/sommario_'+asin+'.json'))
+    review_data = json.load(open('json'+asin+'/sommario_'+asin+'.json'))
     reviews_data = review_data[asin]['reviews']
     trigrams_data = review_data[asin]['trigrams']
     all_days = reviewsPerDay(reviews_data)
