@@ -58,6 +58,21 @@ def makeDataFrame(asin):
     df = pd.DataFrame(review_dict)
     return df
   
+    
+# structure the data to make the anomaly detection process easier
+# extract features only removing 'idReview', useless for the process
+def getFeatures(data_frame):
+    data = data_frame[['shortAndRepetitive',
+            'verifiedPurchase',
+            'reviewByUser',
+            'variance',
+            'reviewDate',
+            'repeatedTrigrams',
+            'reviewLength',
+            'reviewHelpfulness',
+            'vineReview']]
+    return data
+
 
 # create a dictionary to easier manage data
 def structData (df):
@@ -74,7 +89,7 @@ def structData (df):
                         'reviewLength': df['reviewLength'][i],
                         'reviewHelpfulness': df['reviewHelpfulness'][i],
                         'vineReview': df['vineReview'][i],
-                        'class': str(df['class'][i])
+                        'category': str(df['category'][i])
                         }
                 }
         reviews = dict(reviews.items() + data.items())
@@ -94,7 +109,7 @@ def getResult(data_frame, values):
     for rev in reviews:
         temp = { rev: reviews[rev] }     
         for v in values:
-            if temp[rev]['class'] == v:
+            if temp[rev]['category'] == v:
                 classes[v]['reviews'] = dict(classes[v]['reviews'].items() + temp.items())
                 counters[v] = counters[v] + 1
     
@@ -117,12 +132,12 @@ def printToCsv(asin, data_frame):
 
 
 # cluster based anomaly detection algorithm 
-def clustering (df, data):
+def clustering (frame, data):
+    
     # preprocess features: normalization and standardization
     min_max_scaler = preprocessing.StandardScaler()
     np_scaled = min_max_scaler.fit_transform(data)
     features = pd.DataFrame(np_scaled)
-    
     '''
     # it is possible to reduce the dimension of the features space
     # reduce to 3 importants features
@@ -136,12 +151,13 @@ def clustering (df, data):
     '''
     n_cluster = range(1, 4)
     kmeans = [KMeans(n_clusters=i).fit(features) for i in n_cluster]
-    df['class'] = kmeans[2].predict(features)
-    df['class'] = df['class'].map({0: 'cluster 1', 1: 'cluster 2', 2: 'cluster 3'})
-    #print '\nCluster\n', df['class'].value_counts()
     
-    result = getResult(df, ['cluster 1', 'cluster 2', 'cluster 3'])
-    return df, result
+    frame.loc[:,'category'] = kmeans[2].predict(features)
+    frame.loc[:,'category'] = frame['category'].map({0: 'cluster 1', 1: 'cluster 2', 2: 'cluster 3'})
+    #print '\nCluster\n', frame['category'].value_counts()
+    
+    result = getResult(frame, ['cluster 1', 'cluster 2', 'cluster 3'])
+    return frame, result
 
 
 # isolation forest anomaly detection algorithm 
@@ -155,9 +171,9 @@ def isolationForest(df, data):
     model.fit(features)
     
     # add the data to the data frame df   
-    df['class'] = pd.Series(model.predict(features))
-    df['class'] = df['class'].map({1: 'normal', -1: 'anomalous'})
-    #print '\nIsolation Forest\n', df['class'].valuthe anomaly detection processe_counts()
+    df['category'] = pd.Series(model.predict(features))
+    df['category'] = df['category'].map({1: 'normal', -1: 'anomalous'})
+    #print '\nIsolation Forest\n', df['category'].valuthe anomaly detection processe_counts()
     
     result = getResult(df, ['normal', 'anomalous'])
     return df, result
@@ -174,13 +190,13 @@ def svm(df, data):
     model.fit(features)
     
     # add the data to the data frame df 
-    df['class'] = pd.Series(model.predict(features))
-    df['class'] = df['class'].map( {1: 'normal', -1: 'anomalous'} )
-    #print '\nSVM\n', df['class'].value_counts()
+    df['category'] = pd.Series(model.predict(features))
+    df['category'] = df['category'].map( {1: 'normal', -1: 'anomalous'} )
+    #print '\nSVM\n', df['category'].value_counts()
     
     result = getResult(df, ['normal', 'anomalous'])
     return df, result
-    
+
 
 # method to run a few anomaly detection algorithms
 # used method:
@@ -189,40 +205,61 @@ def svm(df, data):
     # SVM
 def applyAlgorithms(df, data):
     cluster_df, res_clustering = clustering (df, data)
-    df['cluster'] = cluster_df['class']
+    df['cluster'] = cluster_df['category']
     isolationForest_df, res_isolationForest = isolationForest(df, data)
-    df['isolation forest'] = isolationForest_df['class']
+    df['isolation forest'] = isolationForest_df['category']
     svm_df, res_svm = svm(df, data)
-    df['svm'] = svm_df['class']
+    df['svm'] = svm_df['category']
     
     result = {'Cluster' : res_clustering, 
               'Isolation Forest': res_isolationForest, 
               'SVM': res_svm
               }
     
-    df = df.drop(columns='class')
+    df = df.drop(columns='category')
     return df, result
 
 
 # main method
 def anomalyDetection(asin):
-    data_frame = makeDataFrame(asin)
+    df = makeDataFrame(asin)
+    data = getFeatures(df)
     
-    # structure the data to make the anomaly detection process easier
-    # remove 'idReview', useless for the process
-    data = data_frame[['shortAndRepetitive',
-            'verifiedPurchase',
-            'reviewByUser',
-            'variance',
-            'reviewDate',
-            'repeatedTrigrams',
-            'reviewLength',
-            'reviewHelpfulness',
-            'vineReview']]
-    
-    data_frame, result = applyAlgorithms(data_frame, data)
+    data_frame, result = applyAlgorithms(df, data)
     # print results on files
     printToJson(asin, result)
     printToCsv(asin, data_frame)
     
     return result
+    
+def combinationIsolationForest_Cluster(df, data):
+    data_frame, result = isolationForest(df, data)
+    # get anomalous entries only
+    only_anomalous = data_frame[data_frame.category != 'normal']
+    data = getFeatures(only_anomalous)
+    
+    data_frame, result = clustering(only_anomalous, data) 
+    #print data_frame.info()
+    
+
+if __name__ == '__main__':
+    asin = 'B01AXOCCG2' #'B00PVDMTIC' 'B01LZ1Y47Q' 'B01AXOCCG2' 'B01GPEA1QC'
+    data_frame = makeDataFrame(asin)
+    # structure the data to make the anomaly detection process easier
+    # remove 'idReview', useless for the process
+    data = getFeatures(data_frame)
+    combinationIsolationForest_Cluster(data_frame, data)
+    
+    
+                     
+
+
+
+
+
+
+
+
+
+
+

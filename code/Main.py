@@ -86,8 +86,8 @@ if __name__ == '__main__':
     print 'done'
     
     print '\nDetecting anomalies . . .'
-    #anomaly_detection = ad.anomalyDetection(asin)
-    anomaly_detection = json.load(open('json/anomaly_detection_'+asin+'.json'))
+    anomaly_detection = ad.anomalyDetection(asin)
+    #anomaly_detection = json.load(open('json/anomaly_detection_'+asin+'.json'))
     print 'done'
     
     print '\nProducing conclusive result . . .'
