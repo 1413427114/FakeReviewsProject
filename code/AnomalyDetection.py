@@ -25,7 +25,7 @@ outliers_fraction = 0.1
 # it makes the execution of the anomaly detection algorithms below simpler
 def makeDataFrame(asin):
     data = json.load(open('json/analisi_' + asin + '.json'))
-    print len(data)
+    
     # dictionary with 9 features
     review_dict = {
             'idReview': [],
@@ -182,17 +182,6 @@ def svm(df, data):
     return df, result
     
 
-def combinationIsolationForest_Cluster(df, data):
-    #
-    data_frame, result = isolationForest(df, data)
-    data_frame.drop('normal', 1)
-    print data_frame
-    #print data_frame['class'].value_counts()
-    
-    
-    
-    
-
 # method to run a few anomaly detection algorithms
 # used method:
     # clustering
@@ -217,32 +206,6 @@ def applyAlgorithms(df, data):
 
 # main method
 def anomalyDetection(asin):
-    df = makeDataFrame(asin)
-    
-    # structure the data to make the anomaly detection process easier
-    # remove 'idReview', useless for the process
-    data = df[['shortAndRepetitive',
-            'verifiedPurchase',
-            'reviewByUser',
-            'variance',
-            'reviewDate',
-            'repeatedTrigrams',
-            'reviewLength',
-            'reviewHelpfulness',
-            'vineReview']]
-    
-    data_frame, result = applyAlgorithms(df, data)
-    # print results on files
-    printToJson(asin, result)
-    printToCsv(asin, data_frame)
-    
-    return result
-    
-
-
-if __name__ == '__main__':
-    
-    asin = 'B01AXOCCG2'
     data_frame = makeDataFrame(asin)
     
     # structure the data to make the anomaly detection process easier
@@ -257,7 +220,18 @@ if __name__ == '__main__':
             'reviewHelpfulness',
             'vineReview']]
     
-    combinationIsolationForest_Cluster (data_frame, data)
+    data_frame, result = applyAlgorithms(data_frame, data)
+    # print results on files
+    printToJson(asin, result)
+    printToCsv(asin, data_frame)
+    
+    return result
+    
+
+
+
+
+
 
 
 
