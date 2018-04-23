@@ -1,0 +1,842 @@
+{
+    "R3DVQ6FXVNM55": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 0, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -4.0, 
+            "reviewDate": -0.073, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 0, 
+            "vineReview": 0
+        }, 
+        "finalScore": 1.927
+    }, 
+    "R1AAJS8I1T9HEP": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": -1, 
+                "repetitiveReviewer": 1, 
+                "rank": 6.438455935906773e-05, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": 1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -4.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 0, 
+            "vineReview": 0
+        }, 
+        "finalScore": 2.0001
+    }, 
+    "R1FIUF5KD9FODK": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": -1, 
+                "repetitiveReviewer": 1, 
+                "rank": 6.689543252852347e-07, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -0.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 0, 
+            "vineReview": 0
+        }, 
+        "finalScore": 4.0
+    }, 
+    "RO7TKX14I99IL": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 9.051559862797408e-07, 
+                "oneTimeReviewer": -1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": 1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -1.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 5, 
+            "vineReview": 0
+        }, 
+        "finalScore": 10.0
+    }, 
+    "R2GIPBJT8GFVQV": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 0, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -4.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 0, 
+            "vineReview": 0
+        }, 
+        "finalScore": 2.0
+    }, 
+    "RP4S0A6H5965X": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 0, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -1.0, 
+            "reviewDate": -0.073, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 0, 
+            "vineReview": 0
+        }, 
+        "finalScore": 4.927
+    }, 
+    "R1B478A7PJ0JGH": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": -1, 
+                "repetitiveReviewer": 1, 
+                "rank": 0.0008566592891550579, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": 1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -4.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 11, 
+            "vineReview": 0
+        }, 
+        "finalScore": 13.0009
+    }, 
+    "R2HNOS7H3EQKJO": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 1.5339619168388113e-08, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": 1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -1.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 2, 
+            "vineReview": 0
+        }, 
+        "finalScore": 9.0
+    }, 
+    "RBQDM84VD04G1": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 6.709608158883521e-08, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 0, 
+            "variance": -4.0, 
+            "reviewDate": -0.17300000000000001, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 2, 
+            "vineReview": 0
+        }, 
+        "finalScore": 2.827
+    }, 
+    "R3Q6ZEK2EYJYCL": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": -1, 
+                "repetitiveReviewer": 1, 
+                "rank": 0.00012926104880535484, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -4.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 1, 
+            "vineReview": 0
+        }, 
+        "finalScore": 1.0001
+    }, 
+    "R1WOF4UP0FHEEU": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 4.418327221314011e-07, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": -1, 
+            "reviewByUser": 1, 
+            "variance": -1.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 0, 
+            "vineReview": 0
+        }, 
+        "finalScore": 3.0
+    }, 
+    "R2FYTAW03OLDTU": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 5.876009210411263e-06, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": 1, 
+            "verifiedPurchase": -1, 
+            "reviewByUser": 1, 
+            "variance": -1.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": -2, 
+            "reviewHelpfulness": 0, 
+            "vineReview": 0
+        }, 
+        "finalScore": 1.0
+    }, 
+    "R2K593EXFYKIBD": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": -1, 
+                "repetitiveReviewer": 1, 
+                "rank": 5.328933800783667e-05, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -0.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 4, 
+            "vineReview": 0
+        }, 
+        "finalScore": 8.0001
+    }, 
+    "R2Q3MZQRQDQ0J8": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": -1, 
+                "repetitiveReviewer": 1, 
+                "rank": 4.6421868913990295e-05, 
+                "oneTimeReviewer": -1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -4.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 0, 
+            "vineReview": 0
+        }, 
+        "finalScore": -2.0
+    }, 
+    "RXIRQ1FR6HOO3": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 3.1619386900088005e-08, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": 1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -4.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 3, 
+            "vineReview": 0
+        }, 
+        "finalScore": 7.0
+    }, 
+    "R25AVDRTGQI2JY": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 0, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -4.0, 
+            "reviewDate": -0.073, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 0, 
+            "vineReview": 0
+        }, 
+        "finalScore": 1.927
+    }, 
+    "R3EOGIEDEH697X": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 1.1359190215950827e-07, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -4.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 5, 
+            "vineReview": 0
+        }, 
+        "finalScore": 7.0
+    }, 
+    "R3RDT2LALJKMT5": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": -1, 
+                "repetitiveReviewer": 1, 
+                "rank": 2.6223505319795646e-08, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": -1, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 0, 
+            "variance": -4.0, 
+            "reviewDate": -0.073, 
+            "repeatedTrigrams": -2, 
+            "reviewHelpfulness": 1, 
+            "vineReview": 0
+        }, 
+        "finalScore": -5.073
+    }, 
+    "R1EYV2HELR8MJL": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 0, 
+                "repetitiveReviewer": 0, 
+                "rank": 0.6093333333333333, 
+                "oneTimeReviewer": 0
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": 1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -1.0, 
+            "reviewDate": -0.073, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 5, 
+            "vineReview": 0
+        }, 
+        "finalScore": 9.5363
+    }, 
+    "R2I2QN4HTP48E9": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 5.759733410049866e-06, 
+                "oneTimeReviewer": -1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -1.0, 
+            "reviewDate": -0.073, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 0, 
+            "vineReview": 0
+        }, 
+        "finalScore": 2.927
+    }, 
+    "R18P01O3FI279X": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 1.0329605136884716e-05, 
+                "oneTimeReviewer": -1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -1.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 1, 
+            "vineReview": 0
+        }, 
+        "finalScore": 4.0
+    }, 
+    "R2PVL5NYP89JRI": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": -1, 
+                "repetitiveReviewer": 1, 
+                "rank": 2.8457983819603485e-06, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -4.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 1, 
+            "vineReview": 0
+        }, 
+        "finalScore": 1.0
+    }, 
+    "RBPMOWQS1YT77": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 1.4321353998092395e-09, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 0, 
+            "variance": -0.0, 
+            "reviewDate": -0.073, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 2, 
+            "vineReview": 0
+        }, 
+        "finalScore": 6.927
+    }, 
+    "R207IT5PFM8V3P": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": -1, 
+                "repetitiveReviewer": 1, 
+                "rank": 6.713411905117112e-06, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": 1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -4.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 1, 
+            "vineReview": 0
+        }, 
+        "finalScore": 3.0
+    }, 
+    "R3A9F4ARSYC9EM": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 1.1157850105441684e-07, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": -1, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 0, 
+            "variance": -4.0, 
+            "reviewDate": -0.073, 
+            "repeatedTrigrams": -2, 
+            "reviewHelpfulness": 1, 
+            "vineReview": 0
+        }, 
+        "finalScore": -3.073
+    }, 
+    "R2M3S46YXL6J0Q": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 0, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -4.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 0, 
+            "vineReview": 0
+        }, 
+        "finalScore": 2.0
+    }, 
+    "R3FMKW78KGZB3H": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 3.097649001300428e-06, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": 1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -1.0, 
+            "reviewDate": -0.17300000000000001, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 11, 
+            "vineReview": 0
+        }, 
+        "finalScore": 17.827
+    }, 
+    "R1WWURZITFOQ3K": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 5.423834716230392e-09, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": -1, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -4.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": -2, 
+            "reviewHelpfulness": 5, 
+            "vineReview": 0
+        }, 
+        "finalScore": 2.0
+    }, 
+    "R5KDSTHWA5AUB": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 3.313498363960183e-08, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -4.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 0, 
+            "vineReview": 0
+        }, 
+        "finalScore": 2.0
+    }, 
+    "R3UTAMBUZ5EUFZ": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 6.127736340662923e-10, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -4.0, 
+            "reviewDate": -0.073, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 1, 
+            "vineReview": 0
+        }, 
+        "finalScore": 2.927
+    }, 
+    "R1UVY29AKO38RC": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 0, 
+                "repetitiveReviewer": 0, 
+                "rank": 0, 
+                "oneTimeReviewer": 0
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -1.0, 
+            "reviewDate": -0.073, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 0, 
+            "vineReview": 0
+        }, 
+        "finalScore": 1.927
+    }, 
+    "R1ZW6Z9FF71ZVE": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": -3, 
+                "rank": 3.208946152911146e-05, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -1.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 0, 
+            "vineReview": 0
+        }, 
+        "finalScore": 1.0
+    }, 
+    "R1J0Q1MLFY9M9M": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 2.9827833743631757e-09, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -4.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 3, 
+            "vineReview": 0
+        }, 
+        "finalScore": 5.0
+    }, 
+    "R226OUR65MQ3JF": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 5.0087235268091926e-08, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": 1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -4.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 0, 
+            "vineReview": 0
+        }, 
+        "finalScore": 4.0
+    }, 
+    "R3ARDMN9BPK64R": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": -1, 
+                "repetitiveReviewer": 1, 
+                "rank": 1.077906050333526e-05, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": 1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -1.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 1, 
+            "vineReview": 0
+        }, 
+        "finalScore": 6.0
+    }, 
+    "R2CUBR6G4BANJZ": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 0, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -4.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 0, 
+            "vineReview": 0
+        }, 
+        "finalScore": 2.0
+    }, 
+    "R14AUG2HSFYAQ4": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": -1, 
+                "repetitiveReviewer": 1, 
+                "rank": 2.3287405394915583e-05, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": 1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -4.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 7, 
+            "vineReview": 0
+        }, 
+        "finalScore": 9.0
+    }, 
+    "R286QSYQK6TLOC": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 2.8299110275972922e-09, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": 1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -1.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 4, 
+            "vineReview": 0
+        }, 
+        "finalScore": 11.0
+    }, 
+    "R2KOPQTAXL1DPX": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 1.8446015430091907e-07, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": -1, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -1.0, 
+            "reviewDate": -0.073, 
+            "repeatedTrigrams": -4, 
+            "reviewHelpfulness": 0, 
+            "vineReview": 0
+        }, 
+        "finalScore": -2.073
+    }, 
+    "RDFMIQ8TCVA2B": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": -1, 
+                "repetitiveReviewer": -3, 
+                "rank": 4.169714703730797e-05, 
+                "oneTimeReviewer": -1
+            }, 
+            "shortAndRepetitive": -1, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 0, 
+            "variance": -4.0, 
+            "reviewDate": -0.073, 
+            "repeatedTrigrams": -2, 
+            "reviewHelpfulness": 3, 
+            "vineReview": 0
+        }, 
+        "finalScore": -9.073
+    }, 
+    "R38INYGX3AA4X9": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": -1, 
+                "repetitiveReviewer": 1, 
+                "rank": 0.0011035861551918031, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -1.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 1, 
+            "vineReview": 0
+        }, 
+        "finalScore": 4.0011
+    }, 
+    "RW374VBHK1K62": {
+        "scoreDetails": {
+            "authorReliability": {
+                "easyGrader": 1, 
+                "repetitiveReviewer": 1, 
+                "rank": 4.188885211978536e-09, 
+                "oneTimeReviewer": 1
+            }, 
+            "shortAndRepetitive": 0, 
+            "reviewLength": -1, 
+            "verifiedPurchase": 1, 
+            "reviewByUser": 1, 
+            "variance": -1.0, 
+            "reviewDate": 0.0, 
+            "repeatedTrigrams": 2, 
+            "reviewHelpfulness": 1, 
+            "vineReview": 0
+        }, 
+        "finalScore": 6.0
+    }
+}
