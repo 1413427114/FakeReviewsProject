@@ -37,12 +37,17 @@ def makeDataFrame(asin):
             'repeatedTrigrams': [],
             'reviewLength': [],
             'reviewHelpfulness': [],
-            'vineReview': []
+            'vineReview': [],
+            'authorEasyGrader': [],
+            'authorRepetitiveReviewer': [],
+            'authorRank': [],
+            'authorOneTimeReviewer': []
             }
 
     # populate the dictionary previously initialized
     for rev in data:
         scoreDetails = data[rev]['scoreDetails']
+        author_data = scoreDetails['authorReliability']
         
         review_dict['idReview'].append(rev)
         review_dict['shortAndRepetitive'].append(scoreDetails['shortAndRepetitive'])
@@ -54,6 +59,10 @@ def makeDataFrame(asin):
         review_dict['reviewLength'].append(scoreDetails['reviewLength'])
         review_dict['reviewHelpfulness'].append(scoreDetails['reviewHelpfulness'])
         review_dict['vineReview'].append(scoreDetails['vineReview'])
+        review_dict['authorEasyGrader'].append(author_data['easyGrader'])
+        review_dict['authorRepetitiveReviewer'].append(author_data['repetitiveReviewer'])
+        review_dict['authorRank'].append(author_data['rank'])
+        review_dict['authorOneTimeReviewer'].append(author_data['oneTimeReviewer'])
     
     df = pd.DataFrame(review_dict)
     return df
@@ -70,14 +79,19 @@ def getFeatures(data_frame):
             'repeatedTrigrams',
             'reviewLength',
             'reviewHelpfulness',
-            'vineReview']]
+            'vineReview',
+            'authorEasyGrader',
+            'authorRepetitiveReviewer',
+            'authorRank',
+            'authorOneTimeReviewer']]
     return data
 
 
 # create a dictionary to easier manage data
 def structData (df):
     reviews = {}
-    for i in range(0, len(df)):
+    index = df.index.tolist()
+    for i in index:
         data = {
                 df['idReview'][i]: {
                         'shortAndRepetitive': df['shortAndRepetitive'][i],
@@ -89,6 +103,10 @@ def structData (df):
                         'reviewLength': df['reviewLength'][i],
                         'reviewHelpfulness': df['reviewHelpfulness'][i],
                         'vineReview': df['vineReview'][i],
+                        'authorEasyGrader': df['authorEasyGrader'][i],
+                        'authorRepetitiveReviewer': df['authorRepetitiveReviewer'][i],
+                        'authorRank': df['authorRank'][i],
+                        'authorOneTimeReviewer': df['authorOneTimeReviewer'][i],
                         'category': str(df['category'][i])
                         }
                 }
@@ -132,8 +150,7 @@ def printToCsv(asin, data_frame):
 
 
 # cluster based anomaly detection algorithm 
-def clustering (frame, data):
-    
+def clustering (df, data):
     # preprocess features: normalization and standardization
     min_max_scaler = preprocessing.StandardScaler()
     np_scaled = min_max_scaler.fit_transform(data)
@@ -152,12 +169,12 @@ def clustering (frame, data):
     n_cluster = range(1, 4)
     kmeans = [KMeans(n_clusters=i).fit(features) for i in n_cluster]
     
-    frame.loc[:,'category'] = kmeans[2].predict(features)
-    frame.loc[:,'category'] = frame['category'].map({0: 'cluster 1', 1: 'cluster 2', 2: 'cluster 3'})
-    #print '\nCluster\n', frame['category'].value_counts()
+    df.loc[:,'category'] = kmeans[2].predict(features)
+    df.loc[:,'category'] = df['category'].map({0: 'cluster 1', 1: 'cluster 2', 2: 'cluster 3'})
+    #print '\nCluster\n', df['category'].value_counts()
     
-    result = getResult(frame, ['cluster 1', 'cluster 2', 'cluster 3'])
-    return frame, result
+    result = getResult(df, ['cluster 1', 'cluster 2', 'cluster 3'])
+    return df, result
 
 
 # isolation forest anomaly detection algorithm 
@@ -232,34 +249,31 @@ def anomalyDetection(asin):
     
     return result
     
+
+'''
 def combinationIsolationForest_Cluster(df, data):
     data_frame, result = isolationForest(df, data)
     # get anomalous entries only
-    only_anomalous = data_frame[data_frame.category != 'normal']
-    data = getFeatures(only_anomalous)
+    normal_only = data_frame[data_frame.category == 'normal']
+    anomalous_only = data_frame[data_frame.category == 'normal']
+    data = getFeatures(anomalous_only)
     
-    data_frame, result = clustering(only_anomalous, data) 
-    #print data_frame.info()
+    n_cluster = range(1, 3)
+    kmeans = [KMeans(n_clusters=i).fit(data) for i in n_cluster]
     
+    df.loc[:,'category'] = kmeans[1].predict(data)
+    df.loc[:,'category'] = df['category'].map({0: 'cluster 1', 1: 'cluster 2'})
+    #print '\nCluster\n', df['category'].value_counts()
+    
+    result = getResult(df, ['cluster 1', 'cluster 2'])
+    return df, result
+    printToJson(asin, result)
+    print 'Execution Completed'
+   
 
 if __name__ == '__main__':
     asin = 'B01AXOCCG2' #'B00PVDMTIC' 'B01LZ1Y47Q' 'B01AXOCCG2' 'B01GPEA1QC'
     data_frame = makeDataFrame(asin)
-    # structure the data to make the anomaly detection process easier
-    # remove 'idReview', useless for the process
     data = getFeatures(data_frame)
     combinationIsolationForest_Cluster(data_frame, data)
-    
-    
-                     
-
-
-
-
-
-
-
-
-
-
-
+'''

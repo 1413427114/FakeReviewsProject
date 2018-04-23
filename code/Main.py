@@ -76,13 +76,13 @@ if __name__ == '__main__':
 
     
     print '\nScraping data . . .'
-    scraping_data = scrapingAndTextAnalisys(asin, amazon_domain)
-    #scraping_data = json.load(open('json/sommario_'+asin+'.json'))
+    #scraping_data = scrapingAndTextAnalisys(asin, amazon_domain)
+    scraping_data = json.load(open('json/sommario_'+asin+'.json'))
     print 'done'
     
     print '\nChecking reviews scores . . .'
-    reviews_check_score = checkingReviews(asin)
-    #reviews_check_score = json.load(open('json/analisi_'+asin+'.json'))
+    #reviews_check_score = checkingReviews(asin)
+    reviews_check_score = json.load(open('json/analisi_'+asin+'.json'))
     print 'done'
     
     print '\nDetecting anomalies . . .'
@@ -91,8 +91,8 @@ if __name__ == '__main__':
     print 'done'
     
     print '\nProducing conclusive result . . .'
-    conclusion = checkFinalResult(asin)
-    #conclusion = json.load(open('json/conclusion_'+asin+'.json'))
+    #conclusion = checkFinalResult(asin)
+    conclusion = json.load(open('json/conclusion_'+asin+'.json'))
     print 'done'
 
     data = {
