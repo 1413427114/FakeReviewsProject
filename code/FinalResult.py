@@ -68,7 +68,7 @@ def checkReview(review):
 
 
 def finalResult(asin):
-    review_analisys_data = json.load(open('json'+asin+'/analisi_' + asin + '.json'))
+    review_analisys_data = json.load(open('json/'+asin+'/analisi_' + asin + '.json'))
     max_score, min_score = float(0), float(10)
     max_rev, min_rev = "", ""
     # test sulle reviews

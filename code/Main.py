@@ -41,7 +41,7 @@ def scrapingAndTextAnalisys(asin, amazon_domain):
         }
     }
 
-    f = open('json'+asin+'/sommario_' + asin + '.json', 'w')
+    f = open('json/'+asin+'/sommario_' + asin + '.json', 'w')
     json.dump(data, f, indent=4)
     f.close
     
@@ -51,7 +51,7 @@ def scrapingAndTextAnalisys(asin, amazon_domain):
 def checkingReviews(asin):
     reviews_check_score = rc.reviewsScore(asin)
 
-    f = open('json'+asin+'/analisi_' + asin + '.json', 'w')
+    f = open('json/'+asin+'/analisi_' + asin + '.json', 'w')
     json.dump(reviews_check_score, f, indent=4)
     f.close
     return reviews_check_score
@@ -60,7 +60,7 @@ def checkingReviews(asin):
 def checkFinalResult(asin):
     conclusion = fr.finalResult(asin)
 
-    f = open('json'+asin+'/conclusion_' + asin + '.json', 'w')
+    f = open('json/'+asin+'/conclusion_' + asin + '.json', 'w')
     json.dump(conclusion, f, indent=4)
     f.close
     return conclusion
@@ -77,22 +77,22 @@ if __name__ == '__main__':
     
     print '\nScraping data . . .'
     #scraping_data = scrapingAndTextAnalisys(asin, amazon_domain)
-    scraping_data = json.load(open('json'+asin+'/sommario_'+asin+'.json'))
+    scraping_data = json.load(open('json/'+asin+'/sommario_'+asin+'.json'))
     print 'done'
     
     print '\nChecking reviews scores . . .'
     #reviews_check_score = checkingReviews(asin)
-    reviews_check_score = json.load(open('json'+asin+'/analisi_'+asin+'.json'))
+    reviews_check_score = json.load(open('json/'+asin+'/analisi_'+asin+'.json'))
     print 'done'
     
     print '\nDetecting anomalies . . .'
     anomaly_detection = ad.anomalyDetection(asin)
-    #anomaly_detection = json.load(open('json'+asin+'/anomaly_detection_'+asin+'.json'))
+    #anomaly_detection = json.load(open('json/'+asin+'/anomaly_detection_'+asin+'.json'))
     print 'done'
     
     print '\nProducing conclusive result . . .'
     conclusion = checkFinalResult(asin)
-    #conclusion = json.load(open('json'+asin+'/conclusion_'+asin+'.json'))
+    #conclusion = json.load(open('json/'+asin+'/conclusion_'+asin+'.json'))
     print 'done'
 
     data = {
@@ -111,7 +111,7 @@ if __name__ == '__main__':
         }
     }
 
-    f = open('json'+asin+'/all_in_one_' + asin + '.json', 'w')
+    f = open('json/'+asin+'/all_in_one_' + asin + '.json', 'w')
     json.dump(data, f, indent=4)
     f.close
     print '\nExecution completed\n'

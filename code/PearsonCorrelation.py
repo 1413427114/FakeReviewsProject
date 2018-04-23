@@ -7,7 +7,7 @@ import numpy as np
 
 
 asin = 'B00PVDMTIC' #'B00PVDMTIC' 'B01AXOCCG2' 'B01LZ1Y47Q'
-json_data = json.load(open('json'+asin+'/analisi_'+asin+'.json'))  
+json_data = json.load(open('json/'+asin+'/analisi_'+asin+'.json'))  
 
 vp, rbu, rh, rt, v, rd, sr, rl, vine= [], [], [], [], [], [], [], [], []
 for rev in json_data:

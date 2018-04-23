@@ -24,7 +24,7 @@ outliers_fraction = 0.1
 # create a pandas data frame
 # it makes the execution of the anomaly detection algorithms below simpler
 def makeDataFrame(asin):
-    data = json.load(open('json'+asin+'/analisi_' + asin + '.json'))
+    data = json.load(open('json/'+asin+'/analisi_' + asin + '.json'))
     
     # dictionary with 9 features
     review_dict = {
@@ -139,8 +139,8 @@ def getResult(data_frame, values):
 
 # print result on json file
 def printToJson(asin, result):
-    #f = open('json'+asin+'/anomaly_detection_' + asin + '.json', 'w')
-    f = open('json'+asin+'/combination_anomaly_detection_' + asin + '.json', 'w')
+    #f = open('json/'+asin+'/anomaly_detection_' + asin + '.json', 'w')
+    f = open('json/'+asin+'/combination_anomaly_detection_' + asin + '.json', 'w')
     json.dump(result, f, indent=4)
     f.close
     
@@ -234,8 +234,8 @@ def applyAlgorithms(df, data):
               'SVM': res_svm
               }
     
-    #df = df.drop(columns='category')
-    df = df.drop('category', axis=1)
+    df = df.drop(columns='category')
+    #df = df.drop('category', axis=1)
     return df, result
 
 

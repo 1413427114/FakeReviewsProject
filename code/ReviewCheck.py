@@ -207,7 +207,7 @@ def checkReview(review, product):
 
 # return scores of all the analized reviews    
 def reviewsScore(asin):    
-    review_data = json.load(open('json'+asin+'/sommario_'+asin+'.json'))
+    review_data = json.load(open('json/'+asin+'/sommario_'+asin+'.json'))
     reviews_data = review_data[asin]['reviews']
     product_data = review_data[asin]['productDetails']
     
@@ -235,6 +235,6 @@ if __name__ == '__main__':
     asin =  'B00PVDMTIC' #'B01LZ1Y47Q' 'B01AXOCCG2' 'B00PVDMTIC'
     reviews_check_score = reviewsScore(asin)
 
-    f = open('json'+asin+'/analisi_' + asin + '.json', 'w')
+    f = open('json/'+asin+'/analisi_' + asin + '.json', 'w')
     json.dump(reviews_check_score, f, indent=4)
     f.close()    

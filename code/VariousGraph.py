@@ -78,9 +78,9 @@ def plotTrigramsPerRep(trigrams_per_rep, fig, ax):
     
     
 if __name__ == '__main__':    
-    asin = 'B01AXOCCG2' #B00PVDMTIC #B01AXOCCG2 #B01LZ1Y47Q
+    asin = 'B01AXOCCG2' #'B00PVDMTIC' 'B01LZ1Y47Q' 'B01AXOCCG2' 'B01GPEA1QC' 'B01MY98XEN'
     
-    review_data = json.load(open('json'+asin+'/sommario_'+asin+'.json'))
+    review_data = json.load(open('json/'+asin+'/sommario_'+asin+'.json'))
     reviews_data = review_data[asin]['reviews']
     trigrams_data = review_data[asin]['trigrams']
     all_days = reviewsPerDay(reviews_data)
@@ -94,4 +94,5 @@ if __name__ == '__main__':
     fig, ax = plt.subplots(3,1)
     plotRevPerDay(all_days, fig, ax)
     plotRevPerUser(all_users, fig, ax)   
-    plotTrigramsPerRep(rest, fig, ax)
+    plotTrigramsPerRep(trigrams_per_rev, fig, ax)
+    #plotTrigramsPerRep(rest, fig, ax)
