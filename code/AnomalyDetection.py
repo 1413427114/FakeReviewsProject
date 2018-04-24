@@ -140,7 +140,7 @@ def getResult(data_frame, values):
 # print result on json file
 def printToJson(asin, result):
     #f = open('json/'+asin+'/anomaly_detection_' + asin + '.json', 'w')
-    f = open('json/'+asin+'/combination_anomaly_detection_' + asin + '.json', 'w')
+    f = open('json/'+asin+'/anomaly_detection_' + asin + '.json', 'w')
     json.dump(result, f, indent=4)
     f.close
     
@@ -216,6 +216,60 @@ def svm(df, data):
     return df, result
 
 
+# procedure to cluster results of isolation forest/svm algorithm:
+# anomalous results from isolation forest/svm algorithm can be separated in two clusters
+# with different features since some of them can be considered positively anomaluos 
+# (we can assume those are the certainly trustable ones) and others negatively anomalous 
+# (we can assume those are the fake ones)
+def combinations(df, data):
+    # cluster initialization
+    n_cluster = range(1, 3)
+    
+    # final result initialization
+    final_result = { 
+            'Combination Isolation Forest - Cluster' : {},
+            'Combination SVM - Cluster' : {} }
+    
+    # ISOLATION FOREST EXECUTION
+    data_frame_if, res_if = isolationForest(df, data)
+    # separate normal etries from anlomalous entries 
+    normal_only_if = data_frame_if[data_frame_if.category == 'normal']
+    anomalous_only_if = data_frame_if[data_frame_if.category == 'anomalous']
+    data_if = getFeatures(anomalous_only_if)
+    # computing clusters
+    kmeans = [KMeans(n_clusters=i).fit(data_if) for i in n_cluster]
+    anomalous_only_if.loc[:,'category'] = kmeans[1].predict(data_if)
+    anomalous_only_if.loc[:,'category'] = anomalous_only_if['category'].map({0: 'cluster 1', 1: 'cluster 2'})
+    # get isolation forest results
+    res_clustering_if = getResult(anomalous_only_if, ['cluster 1', 'cluster 2'])
+    normal_result_if = getResult(normal_only_if, ['normal'])
+    # add isolation forest result to final result
+    final_result['Combination Isolation Forest - Cluster'] = dict(final_result['Combination Isolation Forest - Cluster'].items() + normal_result_if.items())
+    final_result['Combination Isolation Forest - Cluster'] = dict(final_result['Combination Isolation Forest - Cluster'].items() + {'anomalous': res_clustering_if}.items())
+
+    
+    # SVM EXECUTION
+    data_frame_svm, res_svm = svm(df, data)
+    # separate normal etries from anlomalous entries
+    normal_only_svm = data_frame_svm[data_frame_svm.category == 'normal']
+    anomalous_only_svm = data_frame_svm[data_frame_svm.category == 'anomalous']
+    data_svm = getFeatures(anomalous_only_svm)
+    # computing clusters
+    kmeans = [KMeans(n_clusters=i).fit(data_svm) for i in n_cluster]
+    anomalous_only_svm.loc[:,'category'] = kmeans[1].predict(data_svm)
+    anomalous_only_svm.loc[:,'category'] = anomalous_only_svm['category'].map({0: 'cluster 1', 1: 'cluster 2'})
+    # get svm results
+    res_clustering_svm = getResult(anomalous_only_svm, ['cluster 1', 'cluster 2'])
+    normal_result_svm = getResult(normal_only_svm, ['normal'])
+    # add svm result to final result
+    final_result['Combination SVM - Cluster'] = dict(final_result['Combination SVM - Cluster'].items() + normal_result_svm.items())
+    final_result['Combination SVM - Cluster'] = dict(final_result['Combination SVM - Cluster'].items() + {'anomalous': res_clustering_svm}.items())
+
+    #print final_result
+            
+    return final_result
+
+
 # method to run a few anomaly detection algorithms
 # used method:
     # clustering
@@ -223,15 +277,21 @@ def svm(df, data):
     # SVM
 def applyAlgorithms(df, data):
     cluster_df, res_clustering = clustering (df, data)
-    df['cluster'] = cluster_df['category']
+    df.loc[:,'cluster'] = cluster_df['category']
+    
     isolationForest_df, res_isolationForest = isolationForest(df, data)
-    df['isolation forest'] = isolationForest_df['category']
+    df.loc[:,'isolation forest'] = isolationForest_df['category']
+    
     svm_df, res_svm = svm(df, data)
-    df['svm'] = svm_df['category']
+    df.loc[:,'svm'] = svm_df['category']
+    
+    res_combinations = combinations(df, data)
     
     result = {'Cluster' : res_clustering, 
               'Isolation Forest': res_isolationForest, 
-              'SVM': res_svm
+              'SVM': res_svm,
+              'Combination Isolation Forest - Cluster': res_combinations['Combination Isolation Forest - Cluster'],
+              'Combination SVM - Cluster': res_combinations['Combination SVM - Cluster']
               }
     
     df = df.drop(columns='category')
@@ -250,40 +310,5 @@ def anomalyDetection(asin):
     printToCsv(asin, data_frame)
     
     return result
-    
 
-
-def combinationIsolationForest_Cluster(df, data):
-    # execute isolation forest
-    data_frame, res_isolationForest = isolationForest(df, data)
     
-    normal_only = data_frame[data_frame.category == 'normal']
-    anomalous_only = data_frame[data_frame.category == 'anomalous']
-    data = getFeatures(anomalous_only)
-    
-    # execute cluster
-    n_cluster = range(1, 3)
-    kmeans = [KMeans(n_clusters=i).fit(data) for i in n_cluster]
-    
-    anomalous_only.loc[:,'category'] = kmeans[1].predict(data)
-    anomalous_only.loc[:,'category'] = anomalous_only['category'].map({0: 'cluster 1', 1: 'cluster 2'})
-    #print '\nCluster\n', df['category'].value_counts()
-    
-    res_clustering = getResult(anomalous_only, ['cluster 1', 'cluster 2'])
-    
-    normal_result = getResult(normal_only, ['normal'])
-    
-    final_result = { 'Combination Isolation Forest - Cluster' : {} }
-    final_result['Combination Isolation Forest - Cluster'] = dict(final_result['Combination Isolation Forest - Cluster'].items() + normal_result.items())
-    
-    final_result['Combination Isolation Forest - Cluster'] = dict(final_result['Combination Isolation Forest - Cluster'].items() + {'anomalous': res_clustering}.items())
-            
-    printToJson(asin, final_result)
-    
-   
-
-if __name__ == '__main__':
-    asin = 'B01AXOCCG2' #'B00PVDMTIC' 'B01LZ1Y47Q' 'B01AXOCCG2' 'B01GPEA1QC'
-    data_frame = makeDataFrame(asin)
-    data = getFeatures(data_frame)
-    combinationIsolationForest_Cluster(data_frame, data)

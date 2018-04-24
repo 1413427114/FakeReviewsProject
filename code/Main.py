@@ -96,8 +96,8 @@ if __name__ == '__main__':
     print 'done'
     
     print '\nProducing conclusive result . . .'
-    conclusion = checkFinalResult(asin)
-    #conclusion = json.load(open('json/'+asin+'/conclusion_'+asin+'.json'))
+    #conclusion = checkFinalResult(asin)
+    conclusion = json.load(open('json/'+asin+'/conclusion_'+asin+'.json'))
     print 'done'
 
     data = {
