@@ -74,6 +74,11 @@ if __name__ == '__main__':
     #amazon_domain = 'https://www.amazon.it' 
     asin, amazon_domain = readAsinAndDomain()
 
+    #crea la nuova directory per il nuovo file se non esiste
+    import os
+    directory = 'json/'+asin+'/'
+    if not os.path.exists(directory):
+        os.makedirs(directory)
     
     print '\nScraping data . . .'
     #scraping_data = scrapingAndTextAnalisys(asin, amazon_domain)

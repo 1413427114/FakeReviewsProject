@@ -7,6 +7,25 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from collections import Counter
 
+def parseDate(date_to_parse):
+    string_of_date = date_to_parse
+    string_of_date = string_of_date.replace('gen', 'jan')
+    string_of_date = string_of_date.replace('feb', 'feb')
+    string_of_date = string_of_date.replace('mar', 'mar')
+    string_of_date = string_of_date.replace('apr', 'apr')
+    string_of_date = string_of_date.replace('mag', 'may')
+    string_of_date = string_of_date.replace('giu', 'jun')
+    string_of_date = string_of_date.replace('lug', 'jul')
+    string_of_date = string_of_date.replace('ago', 'aug')
+    string_of_date = string_of_date.replace('set', 'sep')
+    string_of_date = string_of_date.replace('ott', 'oct')
+    string_of_date = string_of_date.replace('nov', 'nov')
+    string_of_date = string_of_date.replace('dic', 'dec')
+    try:       
+        return dp.parse(string_of_date).strftime('%d %m %Y')
+    except:
+        return date_to_parse
+        
 def reviewsPerDay(reviews_data):
     all_days = []
     for review in reviews_data:
@@ -32,7 +51,8 @@ def plotRevPerDay(all_days, fig, ax):
     rpd_d = []
     for d in all_days:
         try: 
-            d = dp.parse(d).strftime('%d %m %Y')
+            #d = dp.parse(d).strftime('%d %m %Y')
+            d = parseDate(d)
             data = dt.datetime.strptime(d, "%d %m %Y").date()
             rpd_d.append(data)
         except: None
