@@ -32,7 +32,7 @@
                         "authorReliability": {
                             "easyGrader": 1, 
                             "repetitiveReviewer": 1, 
-                            "rank": 0, 
+                            "rank": 0.0, 
                             "oneTimeReviewer": 1
                         }
                     }
@@ -222,7 +222,7 @@
                         "authorReliability": {
                             "easyGrader": 1, 
                             "repetitiveReviewer": 1, 
-                            "rank": 0, 
+                            "rank": 0.0, 
                             "oneTimeReviewer": 1
                         }
                     }
@@ -260,7 +260,7 @@
                         "authorReliability": {
                             "easyGrader": 1, 
                             "repetitiveReviewer": 1, 
-                            "rank": 0, 
+                            "rank": 0.0, 
                             "oneTimeReviewer": 1
                         }
                     }
@@ -640,7 +640,7 @@
                         "authorReliability": {
                             "easyGrader": 1, 
                             "repetitiveReviewer": 1, 
-                            "rank": 0, 
+                            "rank": 0.0, 
                             "oneTimeReviewer": 1
                         }
                     }
@@ -678,7 +678,7 @@
                         "authorReliability": {
                             "easyGrader": 1, 
                             "repetitiveReviewer": 1, 
-                            "rank": 0, 
+                            "rank": 0.0, 
                             "oneTimeReviewer": 1
                         }
                     }
@@ -692,7 +692,7 @@
                     "reviewHelpfulness": 0, 
                     "repeatedTrigrams": 0, 
                     "vineReview": 0.1, 
-                    "easyGrader": 0.1, 
+                    "easyGrader": 0, 
                     "shortAndRepetitive": 0, 
                     "verifiedPurchase": 0, 
                     "reviewByUser": 0, 
@@ -702,7 +702,7 @@
                     "repetitiveReviewer": 0
                 }, 
                 "reviewScores": {
-                    "finalScore": 1.0, 
+                    "finalScore": 3.0, 
                     "scoreDetails": {
                         "verifiedPurchase": 1, 
                         "reviewByUser": 1, 
@@ -714,14 +714,14 @@
                         "shortAndRepetitive": 0, 
                         "reviewHelpfulness": 1, 
                         "authorReliability": {
-                            "easyGrader": -1, 
+                            "easyGrader": 1, 
                             "repetitiveReviewer": 1, 
                             "rank": 2.6223505319795646e-08, 
                             "oneTimeReviewer": 1
                         }
                     }
                 }, 
-                "warningScore": 0.8
+                "warningScore": 0.7
             }, 
             "R1EYV2HELR8MJL": {
                 "partialWarningScores": {
@@ -1096,7 +1096,7 @@
                         "authorReliability": {
                             "easyGrader": 0, 
                             "repetitiveReviewer": 0, 
-                            "rank": 0, 
+                            "rank": 0.0, 
                             "oneTimeReviewer": 0
                         }
                     }
@@ -1248,7 +1248,7 @@
                         "authorReliability": {
                             "easyGrader": 1, 
                             "repetitiveReviewer": 1, 
-                            "rank": 0, 
+                            "rank": 0.0, 
                             "oneTimeReviewer": 1
                         }
                     }

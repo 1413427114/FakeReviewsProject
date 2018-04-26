@@ -13,11 +13,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 1.51
+        "finalScore": 2.51
     }, 
     "R17LGQHKUG7IXL": {
         "scoreDetails": {
@@ -33,11 +33,11 @@
             "reviewByUser": 1, 
             "variance": -5.29, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 0.646
+        "finalScore": -0.354
     }, 
     "RQJWS5DB4YOMX": {
         "scoreDetails": {
@@ -53,18 +53,18 @@
             "reviewByUser": 1, 
             "variance": -1.69, 
             "reviewDate": -0.2663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 2, 
             "vineReview": 0
         }, 
-        "finalScore": 6.0437
+        "finalScore": 5.0437
     }, 
     "R1C0D5WDT5Z5RH": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -73,11 +73,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.2663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 5.2437
+        "finalScore": 4.2437
     }, 
     "R3LX3O8EJ1OCUC": {
         "scoreDetails": {
@@ -93,11 +93,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.5663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 2.9437
+        "finalScore": 1.9437
     }, 
     "R2E2EM7DKOJ8WZ": {
         "scoreDetails": {
@@ -113,11 +113,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.51
+        "finalScore": 5.51
     }, 
     "R10EOQXNNC70JM": {
         "scoreDetails": {
@@ -133,11 +133,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 5, 
             "vineReview": 0
         }, 
-        "finalScore": 5.51
+        "finalScore": 6.51
     }, 
     "R3PZ1LBI9D0MW0": {
         "scoreDetails": {
@@ -153,11 +153,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 5.51
+        "finalScore": 4.51
     }, 
     "R146B6J4H6ASGL": {
         "scoreDetails": {
@@ -173,11 +173,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.1663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.3437
+        "finalScore": 5.3437
     }, 
     "R3DV9PODDRRL14": {
         "scoreDetails": {
@@ -193,11 +193,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 4.4437
+        "finalScore": 3.4437
     }, 
     "R3PMSPE8YW9FDY": {
         "scoreDetails": {
@@ -213,11 +213,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 1.51
+        "finalScore": 0.51
     }, 
     "R21FVEYEUWE1GE": {
         "scoreDetails": {
@@ -233,18 +233,18 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 2, 
             "vineReview": 0
         }, 
-        "finalScore": 2.91
+        "finalScore": 3.91
     }, 
     "R2O6WX9AP1W0N7": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -253,11 +253,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 5.51
+        "finalScore": 4.51
     }, 
     "R1OLC108VOXCUH": {
         "scoreDetails": {
@@ -273,11 +273,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": -4, 
+            "repeatedTrigrams": -2, 
             "reviewHelpfulness": 2, 
             "vineReview": 0
         }, 
-        "finalScore": 3.91
+        "finalScore": 5.91
     }, 
     "R2FQCHO8E1QEHF": {
         "scoreDetails": {
@@ -293,11 +293,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 4, 
             "vineReview": 0
         }, 
-        "finalScore": 9.51
+        "finalScore": 8.51
     }, 
     "RWTO6KCMXBOMH": {
         "scoreDetails": {
@@ -313,11 +313,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 3.51
+        "finalScore": 2.51
     }, 
     "R24PQDPV43C4YU": {
         "scoreDetails": {
@@ -333,11 +333,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.3663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 4.1437
+        "finalScore": 3.1437
     }, 
     "R2JZDVFNI38KU5": {
         "scoreDetails": {
@@ -353,11 +353,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": -4, 
+            "repeatedTrigrams": -2, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 2.91
+        "finalScore": 4.91
     }, 
     "R1HYRQ44G6NYG1": {
         "scoreDetails": {
@@ -373,11 +373,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.1663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.3437
+        "finalScore": 5.3437
     }, 
     "RFH8IDYEGLDL": {
         "scoreDetails": {
@@ -393,11 +393,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.4437
+        "finalScore": 5.4437
     }, 
     "R1TDRH49JQP83Q": {
         "scoreDetails": {
@@ -413,11 +413,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 2, 
             "vineReview": 0
         }, 
-        "finalScore": 7.51
+        "finalScore": 6.51
     }, 
     "R103239OJN0G7C": {
         "scoreDetails": {
@@ -433,11 +433,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.51
+        "finalScore": 5.51
     }, 
     "R2CDVWT0IOM4VL": {
         "scoreDetails": {
@@ -453,11 +453,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 3, 
             "vineReview": 0
         }, 
-        "finalScore": 8.91
+        "finalScore": 7.91
     }, 
     "R2ULJJY8DP7ZMW": {
         "scoreDetails": {
@@ -473,16 +473,16 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": -4, 
+            "repeatedTrigrams": -2, 
             "reviewHelpfulness": 3, 
-            "vineReview": 2
+            "vineReview": 1
         }, 
-        "finalScore": 155.8259
+        "finalScore": 156.8259
     }, 
     "R3C9JO7JY2ZB8Y": {
         "scoreDetails": {
             "authorReliability": {
-                "easyGrader": -1, 
+                "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
                 "rank": 7.31936844306577e-07, 
                 "oneTimeReviewer": 1
@@ -493,11 +493,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 1.4437
+        "finalScore": 2.4437
     }, 
     "R1244H4YVTZKJG": {
         "scoreDetails": {
@@ -513,18 +513,18 @@
             "reviewByUser": 1, 
             "variance": -10.89, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": -5.89
+        "finalScore": -6.89
     }, 
     "R1LKEGFY84EZT0": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -533,11 +533,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.5663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 2.9437
+        "finalScore": 1.9437
     }, 
     "R2CATLD71R39FM": {
         "scoreDetails": {
@@ -553,11 +553,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 2, 
             "vineReview": 0
         }, 
-        "finalScore": 7.91
+        "finalScore": 6.91
     }, 
     "R259YL8ZK5TY1C": {
         "scoreDetails": {
@@ -573,11 +573,11 @@
             "reviewByUser": 1, 
             "variance": -10.89, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 33, 
             "vineReview": 0
         }, 
-        "finalScore": 25.11
+        "finalScore": 24.11
     }, 
     "R233XZ0FOUV6LP": {
         "scoreDetails": {
@@ -593,11 +593,11 @@
             "reviewByUser": 1, 
             "variance": -10.89, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 9, 
             "vineReview": 0
         }, 
-        "finalScore": 4.11
+        "finalScore": 3.11
     }, 
     "RQABN8DLT1Q86": {
         "scoreDetails": {
@@ -613,11 +613,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": -5.49
+        "finalScore": -4.49
     }, 
     "R33NEE3BYFNIU9": {
         "scoreDetails": {
@@ -633,11 +633,11 @@
             "reviewByUser": 1, 
             "variance": -5.29, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 12, 
             "vineReview": 0
         }, 
-        "finalScore": 12.71
+        "finalScore": 11.71
     }, 
     "R14PQ1BV5I99QY": {
         "scoreDetails": {
@@ -653,18 +653,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 3, 
             "vineReview": 0
         }, 
-        "finalScore": 8.51
+        "finalScore": 7.51
     }, 
     "R2V2QOLMVADWEN": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": -1, 
@@ -673,11 +673,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.2663, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 0.2437
+        "finalScore": 1.2437
     }, 
     "R8VSGMPF1JB2L": {
         "scoreDetails": {
@@ -693,11 +693,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 3, 
             "vineReview": 0
         }, 
-        "finalScore": -0.4898
+        "finalScore": 0.5102
     }, 
     "R17I2XCPHVXSFP": {
         "scoreDetails": {
@@ -713,11 +713,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 2, 
             "vineReview": 0
         }, 
-        "finalScore": 5.51
+        "finalScore": 4.51
     }, 
     "R29DMB8HTH218E": {
         "scoreDetails": {
@@ -733,11 +733,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 3, 
             "vineReview": 0
         }, 
-        "finalScore": 10.91
+        "finalScore": 9.91
     }, 
     "RIIIWIU9BAALO": {
         "scoreDetails": {
@@ -753,11 +753,11 @@
             "reviewByUser": 1, 
             "variance": -1.69, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 4.31
+        "finalScore": 3.31
     }, 
     "R2QFFVRS1OZS2A": {
         "scoreDetails": {
@@ -773,9 +773,9 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 8, 
-            "vineReview": 2
+            "vineReview": 1
         }, 
         "finalScore": 23.853
     }, 
@@ -793,11 +793,11 @@
             "reviewByUser": 1, 
             "variance": -10.89, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 2, 
             "vineReview": 0
         }, 
-        "finalScore": -2.89
+        "finalScore": -3.89
     }, 
     "R2FU5CH03X680S": {
         "scoreDetails": {
@@ -813,11 +813,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 0.51
+        "finalScore": 1.51
     }, 
     "RTU397NOR50UR": {
         "scoreDetails": {
@@ -833,11 +833,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.4437
+        "finalScore": 2.4437
     }, 
     "R2RTRH5YBSMKAI": {
         "scoreDetails": {
@@ -853,18 +853,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": -4, 
+            "repeatedTrigrams": -2, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": -0.5563
+        "finalScore": 1.4437
     }, 
     "R2M08EREWQUBH0": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": -1, 
@@ -873,11 +873,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": -8, 
+            "repeatedTrigrams": -4, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": -5.5563
+        "finalScore": -1.5563
     }, 
     "R3FJL6Q2MM2772": {
         "scoreDetails": {
@@ -893,11 +893,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.8437
+        "finalScore": 5.8437
     }, 
     "R3K9AKNFIAH70K": {
         "scoreDetails": {
@@ -913,9 +913,9 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 5, 
-            "vineReview": 2
+            "vineReview": 1
         }, 
         "finalScore": 18066.63
     }, 
@@ -933,11 +933,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 27, 
             "vineReview": 0
         }, 
-        "finalScore": 24.5102
+        "finalScore": 23.5102
     }, 
     "RXIT86OZPFTLU": {
         "scoreDetails": {
@@ -953,16 +953,16 @@
             "reviewByUser": 1, 
             "variance": -10.89, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 6, 
             "vineReview": 0
         }, 
-        "finalScore": 1.11
+        "finalScore": 0.11
     }, 
     "R3MMFABG1NGYLC": {
         "scoreDetails": {
             "authorReliability": {
-                "easyGrader": -1, 
+                "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
                 "rank": 1.3386592849168954e-07, 
                 "oneTimeReviewer": 1
@@ -973,11 +973,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 1.51
+        "finalScore": 2.51
     }, 
     "R2HSIH901D7YPZ": {
         "scoreDetails": {
@@ -993,11 +993,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 4, 
             "vineReview": 0
         }, 
-        "finalScore": 4.51
+        "finalScore": 5.51
     }, 
     "RNJT2OF65XOGC": {
         "scoreDetails": {
@@ -1013,18 +1013,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 2.4437
+        "finalScore": 1.4437
     }, 
     "R1DBIKH8OVHZVT": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -1033,11 +1033,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 5.91
+        "finalScore": 4.91
     }, 
     "R3EDRKS7BJRC58": {
         "scoreDetails": {
@@ -1053,11 +1053,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 4.51
+        "finalScore": 3.51
     }, 
     "R3HZDKU4FPMQ5K": {
         "scoreDetails": {
@@ -1073,11 +1073,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 2.4437
+        "finalScore": 1.4437
     }, 
     "R2DIBPFBBAVDF8": {
         "scoreDetails": {
@@ -1093,11 +1093,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 3, 
             "vineReview": 0
         }, 
-        "finalScore": 8.5115
+        "finalScore": 7.5115
     }, 
     "R1WL7OBGUVW50Y": {
         "scoreDetails": {
@@ -1113,11 +1113,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.91
+        "finalScore": 5.91
     }, 
     "R2XC51PPF6YWHV": {
         "scoreDetails": {
@@ -1133,11 +1133,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 21, 
             "vineReview": 0
         }, 
-        "finalScore": 24.51
+        "finalScore": 25.51
     }, 
     "RN7MYUH3JWLVY": {
         "scoreDetails": {
@@ -1153,11 +1153,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.5663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 0.9437
+        "finalScore": -0.0563
     }, 
     "R3GUSEKS7PPBEP": {
         "scoreDetails": {
@@ -1173,18 +1173,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 3, 
-            "vineReview": 2
+            "vineReview": 1
         }, 
-        "finalScore": 13.8656
+        "finalScore": 11.8656
     }, 
     "R34DFYVRPAMSI3": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -1193,16 +1193,16 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.3663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.1437
+        "finalScore": 2.1437
     }, 
     "R201K3JJYF5IQW": {
         "scoreDetails": {
             "authorReliability": {
-                "easyGrader": -1, 
+                "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
                 "rank": 0.0011146029750680913, 
                 "oneTimeReviewer": -1
@@ -1213,11 +1213,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 0.8448
+        "finalScore": 1.8448
     }, 
     "R35WZCKZJ124LS": {
         "scoreDetails": {
@@ -1233,11 +1233,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.91
+        "finalScore": 5.91
     }, 
     "R29TIG5K18YJ9U": {
         "scoreDetails": {
@@ -1253,18 +1253,18 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 5, 
             "vineReview": 0
         }, 
-        "finalScore": 8.8439
+        "finalScore": 7.8439
     }, 
     "R2HV6V8TC8I5ZQ": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -1273,11 +1273,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 5.91
+        "finalScore": 4.91
     }, 
     "R377DZXVFSDYOW": {
         "scoreDetails": {
@@ -1293,11 +1293,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 5.4437
+        "finalScore": 4.4437
     }, 
     "RE5V9APVP7GX": {
         "scoreDetails": {
@@ -1313,9 +1313,9 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 28, 
-            "vineReview": 2
+            "vineReview": 1
         }, 
         "finalScore": 56.4686
     }, 
@@ -1333,11 +1333,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": -6, 
+            "repeatedTrigrams": -3, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": -2.0898
+        "finalScore": 0.9102
     }, 
     "R2LH8MUL9K8ANP": {
         "scoreDetails": {
@@ -1353,11 +1353,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.51
+        "finalScore": 5.51
     }, 
     "R3GD28G60XCPBL": {
         "scoreDetails": {
@@ -1373,11 +1373,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 1.91
+        "finalScore": 2.91
     }, 
     "R32XEI86J6CFCU": {
         "scoreDetails": {
@@ -1393,18 +1393,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.51
+        "finalScore": 2.51
     }, 
     "R2GWD8VE7NQ5EQ": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -1413,18 +1413,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 5.51
+        "finalScore": 4.51
     }, 
     "R16BCNUPQ521TW": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -1433,11 +1433,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.51
+        "finalScore": 2.51
     }, 
     "R11SNZ9IV2TYOA": {
         "scoreDetails": {
@@ -1453,11 +1453,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 2, 
             "vineReview": 0
         }, 
-        "finalScore": 7.51
+        "finalScore": 6.51
     }, 
     "R2R0R1U0JP2KED": {
         "scoreDetails": {
@@ -1473,11 +1473,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.1663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 1.3437
+        "finalScore": 0.3437
     }, 
     "R289K62XUI85FJ": {
         "scoreDetails": {
@@ -1493,11 +1493,11 @@
             "reviewByUser": 1, 
             "variance": -5.29, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 5, 
             "vineReview": 0
         }, 
-        "finalScore": 5.71
+        "finalScore": 4.71
     }, 
     "RJXZQ7CW9QOXV": {
         "scoreDetails": {
@@ -1513,11 +1513,11 @@
             "reviewByUser": 1, 
             "variance": -10.89, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 4, 
             "vineReview": 0
         }, 
-        "finalScore": -0.8899
+        "finalScore": -1.8899
     }, 
     "R3AR0HQ36O4798": {
         "scoreDetails": {
@@ -1533,11 +1533,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.3663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 5.1437
+        "finalScore": 4.1437
     }, 
     "RILO8RB8Y6037": {
         "scoreDetails": {
@@ -1553,11 +1553,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 1.4437
+        "finalScore": 2.4437
     }, 
     "R1VEXGR4S5VVYW": {
         "scoreDetails": {
@@ -1573,11 +1573,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.51
+        "finalScore": 5.51
     }, 
     "RR1U4ZN3H9C24": {
         "scoreDetails": {
@@ -1593,11 +1593,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 1.51
+        "finalScore": 0.51
     }, 
     "R3D56BCW0XX0KW": {
         "scoreDetails": {
@@ -1613,11 +1613,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.5101
+        "finalScore": 5.5101
     }, 
     "R2Y0GUY0K5RFS9": {
         "scoreDetails": {
@@ -1633,11 +1633,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.4437
+        "finalScore": 5.4437
     }, 
     "R1RZT66A2AYEGK": {
         "scoreDetails": {
@@ -1653,11 +1653,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.1663, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 0.7437
+        "finalScore": 1.7437
     }, 
     "R3DQ9S1QKS7I3X": {
         "scoreDetails": {
@@ -1673,11 +1673,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.1663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 3, 
             "vineReview": 0
         }, 
-        "finalScore": 8.3437
+        "finalScore": 7.3437
     }, 
     "R1HBXZPTS0YSF6": {
         "scoreDetails": {
@@ -1693,11 +1693,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 4.51
+        "finalScore": 3.51
     }, 
     "R3PSC79RF65F1L": {
         "scoreDetails": {
@@ -1713,16 +1713,16 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": -2.5563
+        "finalScore": -1.5563
     }, 
     "R8FB87UX62YLL": {
         "scoreDetails": {
             "authorReliability": {
-                "easyGrader": -1, 
+                "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
                 "rank": 0.00012389867841409693, 
                 "oneTimeReviewer": 1
@@ -1733,11 +1733,11 @@
             "reviewByUser": 1, 
             "variance": -1.69, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 7, 
             "vineReview": 0
         }, 
-        "finalScore": 9.3101
+        "finalScore": 10.3101
     }, 
     "RWHQRWGRKT0BY": {
         "scoreDetails": {
@@ -1753,11 +1753,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.8437
+        "finalScore": 5.8437
     }, 
     "R2020XGHIEXB2C": {
         "scoreDetails": {
@@ -1773,18 +1773,18 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.8437
+        "finalScore": 5.8437
     }, 
     "R3S5DPLWG6EIQI": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -1793,18 +1793,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.2663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 5.2437
+        "finalScore": 4.2437
     }, 
     "R3KZN7R2D6OVBX": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -1813,11 +1813,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.3663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.1437
+        "finalScore": 2.1437
     }, 
     "R1UOVIJDVVLNX0": {
         "scoreDetails": {
@@ -1833,16 +1833,16 @@
             "reviewByUser": 1, 
             "variance": -10.89, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 3, 
             "vineReview": 0
         }, 
-        "finalScore": -3.89
+        "finalScore": -4.89
     }, 
     "R2CGC3A86A9JSJ": {
         "scoreDetails": {
             "authorReliability": {
-                "easyGrader": -1, 
+                "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
                 "rank": 2.310178729877044e-05, 
                 "oneTimeReviewer": -1
@@ -1853,18 +1853,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 3, 
             "vineReview": 0
         }, 
-        "finalScore": 4.51
+        "finalScore": 5.51
     }, 
     "R15MQ8HHPS3E27": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -1873,11 +1873,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 5.51
+        "finalScore": 4.51
     }, 
     "R1VYU2DIVNAOKB": {
         "scoreDetails": {
@@ -1893,18 +1893,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 0.51
+        "finalScore": 1.51
     }, 
     "R24VLUEGP571VX": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": -3, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -1913,11 +1913,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.1663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": -0.2563
+        "finalScore": -1.2563
     }, 
     "R1FGGMIR7RN4SW": {
         "scoreDetails": {
@@ -1933,11 +1933,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": -4.49
+        "finalScore": -5.49
     }, 
     "R1XP202QGP8IG3": {
         "scoreDetails": {
@@ -1953,11 +1953,11 @@
             "reviewByUser": 1, 
             "variance": -1.69, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 2, 
             "vineReview": 0
         }, 
-        "finalScore": 8.2437
+        "finalScore": 7.2437
     }, 
     "R2PSIP55410USY": {
         "scoreDetails": {
@@ -1973,11 +1973,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 2.51
+        "finalScore": 1.51
     }, 
     "R37H7XZYXHTPVZ": {
         "scoreDetails": {
@@ -1993,11 +1993,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 4.51
+        "finalScore": 3.51
     }, 
     "RKCI3FD1AAO3P": {
         "scoreDetails": {
@@ -2013,18 +2013,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 0.51
+        "finalScore": -0.49
     }, 
     "RN11EMNDYDON9": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -2033,11 +2033,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.51
+        "finalScore": 2.51
     }, 
     "RND0HQYZXPXMQ": {
         "scoreDetails": {
@@ -2053,11 +2053,11 @@
             "reviewByUser": 1, 
             "variance": -1.69, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 2, 
             "vineReview": 0
         }, 
-        "finalScore": 6.31
+        "finalScore": 5.31
     }, 
     "RDDQAED2P57JA": {
         "scoreDetails": {
@@ -2073,11 +2073,11 @@
             "reviewByUser": 1, 
             "variance": -10.89, 
             "reviewDate": -0.2663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": -4.1563
+        "finalScore": -5.1563
     }, 
     "R1E3AI2YQKVZOT": {
         "scoreDetails": {
@@ -2093,11 +2093,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.1663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 2, 
             "vineReview": 0
         }, 
-        "finalScore": 7.7437
+        "finalScore": 6.7437
     }, 
     "R2QXZ2W08SEE0K": {
         "scoreDetails": {
@@ -2113,11 +2113,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 2, 
             "vineReview": 0
         }, 
-        "finalScore": 5.51
+        "finalScore": 4.51
     }, 
     "R2FZA4GHWQFWFJ": {
         "scoreDetails": {
@@ -2133,11 +2133,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 1.4437
+        "finalScore": 2.4437
     }, 
     "R2D9J4U010Q3IN": {
         "scoreDetails": {
@@ -2153,11 +2153,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": -4, 
+            "repeatedTrigrams": -2, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": -0.5563
+        "finalScore": 1.4437
     }, 
     "R1A7PM4YGM4SWZ": {
         "scoreDetails": {
@@ -2173,11 +2173,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": -14, 
+            "repeatedTrigrams": -7, 
             "reviewHelpfulness": 13, 
-            "vineReview": 2
+            "vineReview": 1
         }, 
-        "finalScore": 28.1263
+        "finalScore": 34.1263
     }, 
     "R950J0HOLRS0E": {
         "scoreDetails": {
@@ -2193,11 +2193,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 5, 
             "vineReview": 0
         }, 
-        "finalScore": 4.5109
+        "finalScore": 5.5109
     }, 
     "RJFWSROWOEAG0": {
         "scoreDetails": {
@@ -2213,11 +2213,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.2663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.2437
+        "finalScore": 5.2437
     }, 
     "RRFSORHLXXARK": {
         "scoreDetails": {
@@ -2233,18 +2233,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 1.4437
+        "finalScore": 2.4437
     }, 
     "R2SOHK5ETASZK1": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -2253,11 +2253,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 5.51
+        "finalScore": 4.51
     }, 
     "R193L26RH1SJJW": {
         "scoreDetails": {
@@ -2273,11 +2273,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 1.4437
+        "finalScore": 2.4437
     }, 
     "R3W3GEUOWT3NT2": {
         "scoreDetails": {
@@ -2293,11 +2293,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.51
+        "finalScore": 2.51
     }, 
     "R1DB21TGQP7G8B": {
         "scoreDetails": {
@@ -2313,18 +2313,18 @@
             "reviewByUser": 1, 
             "variance": -10.89, 
             "reviewDate": -0.1663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 10, 
             "vineReview": 0
         }, 
-        "finalScore": 0.9437
+        "finalScore": -0.0563
     }, 
     "R2XFV2QZS5N9FY": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": -1, 
@@ -2333,11 +2333,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 0.51
+        "finalScore": 1.51
     }, 
     "R1DLXDENYMGK9Y": {
         "scoreDetails": {
@@ -2353,11 +2353,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.3663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 2.1438
+        "finalScore": 1.1438
     }, 
     "R13COO1D29SYC7": {
         "scoreDetails": {
@@ -2373,11 +2373,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 9, 
             "vineReview": 0
         }, 
-        "finalScore": 14.91
+        "finalScore": 13.91
     }, 
     "RO8AH6LY1RIQE": {
         "scoreDetails": {
@@ -2393,18 +2393,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.1663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 5.3437
+        "finalScore": 4.3437
     }, 
     "R1WLLMUEOQ4MD": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -2413,11 +2413,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 5.4437
+        "finalScore": 4.4437
     }, 
     "R3KMK2S62EJU85": {
         "scoreDetails": {
@@ -2433,11 +2433,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 1.4437
+        "finalScore": 0.4437
     }, 
     "R165VWLT5VYRE9": {
         "scoreDetails": {
@@ -2453,18 +2453,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 4.4437
+        "finalScore": 3.4437
     }, 
     "R3VYK2YZTIQPYK": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -2473,11 +2473,11 @@
             "reviewByUser": 1, 
             "variance": -10.89, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": -4.89
+        "finalScore": -5.89
     }, 
     "R2C626DYTEXCU8": {
         "scoreDetails": {
@@ -2493,18 +2493,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 1.51
+        "finalScore": 0.51
     }, 
     "R3P3A8NDGAH0D2": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -2513,18 +2513,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 5.51
+        "finalScore": 4.51
     }, 
     "R1X6VV5JBBX5OU": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -2533,11 +2533,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 5.51
+        "finalScore": 4.51
     }, 
     "R39RGWZJ769NVR": {
         "scoreDetails": {
@@ -2553,11 +2553,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.4437
+        "finalScore": 5.4437
     }, 
     "R2XN89BGGTDGUZ": {
         "scoreDetails": {
@@ -2573,18 +2573,18 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 1.8437
+        "finalScore": 2.8437
     }, 
     "RMJKKDVIM07LC": {
         "scoreDetails": {
             "authorReliability": {
-                "easyGrader": -1, 
+                "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": -1
             }, 
             "shortAndRepetitive": 0, 
@@ -2593,11 +2593,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 1.51
+        "finalScore": 2.51
     }, 
     "R2DYUX7JLKOLZ": {
         "scoreDetails": {
@@ -2613,11 +2613,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": -4, 
+            "repeatedTrigrams": -2, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": -1.5563
+        "finalScore": 0.4437
     }, 
     "RLPNABM3QRSE0": {
         "scoreDetails": {
@@ -2633,11 +2633,11 @@
             "reviewByUser": 1, 
             "variance": -5.29, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 6, 
             "vineReview": 0
         }, 
-        "finalScore": 6.71
+        "finalScore": 5.71
     }, 
     "R8T8M1GZY19M1": {
         "scoreDetails": {
@@ -2653,11 +2653,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.4437
+        "finalScore": 5.4437
     }, 
     "R1K1H4BPU83UV0": {
         "scoreDetails": {
@@ -2673,11 +2673,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.91
+        "finalScore": 2.91
     }, 
     "RA753T56J1J7K": {
         "scoreDetails": {
@@ -2693,11 +2693,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.91
+        "finalScore": 5.91
     }, 
     "R2BC0JVBJ6XQM5": {
         "scoreDetails": {
@@ -2713,11 +2713,11 @@
             "reviewByUser": 1, 
             "variance": -1.69, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 2, 
             "vineReview": 0
         }, 
-        "finalScore": 4.31
+        "finalScore": 3.31
     }, 
     "R1OMWQJ4TLNU9D": {
         "scoreDetails": {
@@ -2733,18 +2733,18 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.3663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 0.5437
+        "finalScore": -0.4563
     }, 
     "R3OR0QGREBRR3O": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -2753,11 +2753,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.8437
+        "finalScore": 2.8437
     }, 
     "R1RLAO5VCUG2WG": {
         "scoreDetails": {
@@ -2773,18 +2773,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.4437
+        "finalScore": 2.4437
     }, 
     "R3K080GBRPK8R0": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -2793,11 +2793,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 5.8437
+        "finalScore": 4.8437
     }, 
     "R35DDRJMMLYSN5": {
         "scoreDetails": {
@@ -2813,11 +2813,11 @@
             "reviewByUser": 1, 
             "variance": -1.69, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 3, 
             "vineReview": 0
         }, 
-        "finalScore": 7.31
+        "finalScore": 6.31
     }, 
     "R2ETXI1RGLJBI3": {
         "scoreDetails": {
@@ -2833,11 +2833,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.91
+        "finalScore": 5.91
     }, 
     "R2DPBZMHRY1U7S": {
         "scoreDetails": {
@@ -2853,18 +2853,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.4437
+        "finalScore": 2.4437
     }, 
     "RRUWKFPB4GAQB": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -2873,18 +2873,18 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.3663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.5437
+        "finalScore": 2.5437
     }, 
     "R3VR4POBCY24GI": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -2893,11 +2893,11 @@
             "reviewByUser": 1, 
             "variance": -1.69, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 0.31
+        "finalScore": 1.31
     }, 
     "R37HO8VOPJRTMD": {
         "scoreDetails": {
@@ -2913,11 +2913,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.5663, 
-            "repeatedTrigrams": -4, 
+            "repeatedTrigrams": -2, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": -7.0563
+        "finalScore": -5.0563
     }, 
     "R14A0Y997FHLXC": {
         "scoreDetails": {
@@ -2933,11 +2933,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": -1.1563
+        "finalScore": -0.1563
     }, 
     "R2Y7QYC3GSZHQU": {
         "scoreDetails": {
@@ -2953,9 +2953,9 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.1663, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 10, 
-            "vineReview": 2
+            "vineReview": 1
         }, 
         "finalScore": 69.2242
     }, 
@@ -2973,18 +2973,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 4, 
             "vineReview": 0
         }, 
-        "finalScore": 5.51
+        "finalScore": 4.51
     }, 
     "R3B4U1I258GH2W": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": -1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -2993,11 +2993,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 1.51
+        "finalScore": 0.51
     }, 
     "R2DH1BFUHTRYWH": {
         "scoreDetails": {
@@ -3013,11 +3013,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 4.51
+        "finalScore": 3.51
     }, 
     "R3SYIAAK6433OX": {
         "scoreDetails": {
@@ -3033,11 +3033,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 3, 
             "vineReview": 0
         }, 
-        "finalScore": 4.51
+        "finalScore": 3.51
     }, 
     "R1QQMIPOVC8R1S": {
         "scoreDetails": {
@@ -3053,11 +3053,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.4437
+        "finalScore": 5.4437
     }, 
     "R2WNN8GPBVQ7SP": {
         "scoreDetails": {
@@ -3073,11 +3073,11 @@
             "reviewByUser": 1, 
             "variance": -1.69, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": -4, 
+            "repeatedTrigrams": -2, 
             "reviewHelpfulness": 10, 
             "vineReview": 0
         }, 
-        "finalScore": 8.2447
+        "finalScore": 10.2447
     }, 
     "R2OLDIAZVCMYHX": {
         "scoreDetails": {
@@ -3093,11 +3093,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.51
+        "finalScore": 5.51
     }, 
     "R2DSG0RBHYI6GH": {
         "scoreDetails": {
@@ -3113,11 +3113,11 @@
             "reviewByUser": 1, 
             "variance": -1.69, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 2, 
             "vineReview": 0
         }, 
-        "finalScore": 0.31
+        "finalScore": 1.31
     }, 
     "R3PUO7UCP7AR94": {
         "scoreDetails": {
@@ -3133,11 +3133,11 @@
             "reviewByUser": 1, 
             "variance": -1.69, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 2, 
             "vineReview": 0
         }, 
-        "finalScore": 6.2437
+        "finalScore": 5.2437
     }, 
     "R320FN4R8GXY58": {
         "scoreDetails": {
@@ -3153,11 +3153,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 4.4437
+        "finalScore": 3.4437
     }, 
     "R28TK3YNTC49IQ": {
         "scoreDetails": {
@@ -3173,11 +3173,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.51
+        "finalScore": 5.51
     }, 
     "ROXPASWHXQNMI": {
         "scoreDetails": {
@@ -3193,11 +3193,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.91
+        "finalScore": 5.91
     }, 
     "R37571PWBEV8S6": {
         "scoreDetails": {
@@ -3213,11 +3213,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 5.91
+        "finalScore": 4.91
     }, 
     "RPH0O4UD173PM": {
         "scoreDetails": {
@@ -3233,11 +3233,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 5, 
             "vineReview": 0
         }, 
-        "finalScore": 10.91
+        "finalScore": 9.91
     }, 
     "REXF1QQUHG0XB": {
         "scoreDetails": {
@@ -3253,11 +3253,11 @@
             "reviewByUser": 1, 
             "variance": -1.69, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 0.31
+        "finalScore": -0.69
     }, 
     "R33OEFI8ADFYUC": {
         "scoreDetails": {
@@ -3273,11 +3273,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 2, 
             "vineReview": 0
         }, 
-        "finalScore": 5.51
+        "finalScore": 4.51
     }, 
     "R2DEWIOURYI98V": {
         "scoreDetails": {
@@ -3293,11 +3293,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.2663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.6437
+        "finalScore": 2.6437
     }, 
     "R1QBTF5XO2B2Q9": {
         "scoreDetails": {
@@ -3313,11 +3313,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 5.51
+        "finalScore": 4.51
     }, 
     "R2OK7WA32YGG6R": {
         "scoreDetails": {
@@ -3333,11 +3333,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": -0.49
+        "finalScore": -1.49
     }, 
     "R3KYI0CY0VZHOV": {
         "scoreDetails": {
@@ -3353,11 +3353,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.51
+        "finalScore": 5.51
     }, 
     "RXEQATSOY3SSY": {
         "scoreDetails": {
@@ -3373,11 +3373,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 4.91
+        "finalScore": 3.91
     }, 
     "REI90SFZMY4OV": {
         "scoreDetails": {
@@ -3393,11 +3393,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.1663, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 2, 
             "vineReview": 0
         }, 
-        "finalScore": -1.2563
+        "finalScore": -0.2563
     }, 
     "R1JYMGI9YXNRM3": {
         "scoreDetails": {
@@ -3413,18 +3413,18 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 7, 
             "vineReview": 0
         }, 
-        "finalScore": 14.91
+        "finalScore": 13.91
     }, 
     "R1DBI2G7X36360": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -3433,11 +3433,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.91
+        "finalScore": 2.91
     }, 
     "R1OGMUHCE24URI": {
         "scoreDetails": {
@@ -3453,11 +3453,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 4.51
+        "finalScore": 3.51
     }, 
     "R5SHC9YQ90REB": {
         "scoreDetails": {
@@ -3473,11 +3473,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 3, 
             "vineReview": 0
         }, 
-        "finalScore": 6.5227
+        "finalScore": 5.5227
     }, 
     "R2BYJU8D3LNS09": {
         "scoreDetails": {
@@ -3493,11 +3493,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.3663, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": -6.8563
+        "finalScore": -5.8563
     }, 
     "R2EME2VZE7X8B": {
         "scoreDetails": {
@@ -3513,11 +3513,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": -4, 
+            "repeatedTrigrams": -2, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": -2.5563
+        "finalScore": -0.5563
     }, 
     "R382AX4Q3LRD10": {
         "scoreDetails": {
@@ -3533,11 +3533,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 2, 
             "vineReview": 0
         }, 
-        "finalScore": 5.8437
+        "finalScore": 4.8437
     }, 
     "R1BJVJW7L9C9YU": {
         "scoreDetails": {
@@ -3553,11 +3553,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.51
+        "finalScore": 2.51
     }, 
     "R3767MS8CI1IXZ": {
         "scoreDetails": {
@@ -3573,11 +3573,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": -4, 
+            "repeatedTrigrams": -2, 
             "reviewHelpfulness": 2, 
             "vineReview": 0
         }, 
-        "finalScore": 0.51
+        "finalScore": 2.51
     }, 
     "RLYNNRVOFC91D": {
         "scoreDetails": {
@@ -3593,16 +3593,16 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.2663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.2437
+        "finalScore": 5.2437
     }, 
     "R3AFDSD2JT2PDZ": {
         "scoreDetails": {
             "authorReliability": {
-                "easyGrader": -1, 
+                "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
                 "rank": 2.695354825493744e-08, 
                 "oneTimeReviewer": 1
@@ -3613,11 +3613,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.4437
+        "finalScore": 4.4437
     }, 
     "R19GZTQH3H7QDY": {
         "scoreDetails": {
@@ -3633,11 +3633,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 13, 
             "vineReview": 0
         }, 
-        "finalScore": 18.91
+        "finalScore": 17.91
     }, 
     "R586LLJBXS1YK": {
         "scoreDetails": {
@@ -3653,18 +3653,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 2, 
             "vineReview": 0
         }, 
-        "finalScore": 5.51
+        "finalScore": 4.51
     }, 
     "R1AN9Z4QE1UL8J": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -3673,11 +3673,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.51
+        "finalScore": 2.51
     }, 
     "RAMN6J6EXTOCX": {
         "scoreDetails": {
@@ -3693,11 +3693,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 2, 
             "vineReview": 0
         }, 
-        "finalScore": -9.5563
+        "finalScore": -8.5563
     }, 
     "R3N2W5C7NVSJQU": {
         "scoreDetails": {
@@ -3713,11 +3713,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": -0.1563
+        "finalScore": -1.1563
     }, 
     "R1OBG5NUFVF3SO": {
         "scoreDetails": {
@@ -3733,18 +3733,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": -0.49
+        "finalScore": 0.51
     }, 
     "R2PPOL3VQD94OF": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -3753,11 +3753,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.91
+        "finalScore": 2.91
     }, 
     "R3IOHOKB3I98W2": {
         "scoreDetails": {
@@ -3773,11 +3773,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 3, 
             "vineReview": 0
         }, 
-        "finalScore": 4.4438
+        "finalScore": 3.4438
     }, 
     "RVJRENO6ORQVU": {
         "scoreDetails": {
@@ -3793,11 +3793,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.51
+        "finalScore": 2.51
     }, 
     "R3311D021G4YQR": {
         "scoreDetails": {
@@ -3813,11 +3813,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.51
+        "finalScore": 2.51
     }, 
     "R10ZMRILPUKYOJ": {
         "scoreDetails": {
@@ -3833,16 +3833,16 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": -0.09
+        "finalScore": -1.09
     }, 
     "R3N29U7JRATMCT": {
         "scoreDetails": {
             "authorReliability": {
-                "easyGrader": -1, 
+                "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
                 "rank": 7.865195899383934e-06, 
                 "oneTimeReviewer": -1
@@ -3853,11 +3853,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 2.4437
+        "finalScore": 3.4437
     }, 
     "R2AMZ33948I65T": {
         "scoreDetails": {
@@ -3873,11 +3873,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 4, 
             "vineReview": 0
         }, 
-        "finalScore": 4.51
+        "finalScore": 5.51
     }, 
     "R38577UOG5OP3L": {
         "scoreDetails": {
@@ -3893,16 +3893,16 @@
             "reviewByUser": 1, 
             "variance": -1.69, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 5.2437
+        "finalScore": 4.2437
     }, 
     "R6CMQHD7EK6XU": {
         "scoreDetails": {
             "authorReliability": {
-                "easyGrader": -1, 
+                "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
                 "rank": 0.0021678832116788322, 
                 "oneTimeReviewer": 1
@@ -3913,11 +3913,11 @@
             "reviewByUser": 1, 
             "variance": -5.29, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 10, 
             "vineReview": 0
         }, 
-        "finalScore": 8.7122
+        "finalScore": 9.7122
     }, 
     "R2Y8SPDB9BSXB6": {
         "scoreDetails": {
@@ -3933,11 +3933,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 0.51
+        "finalScore": -0.49
     }, 
     "R7B7WDAIDPK62": {
         "scoreDetails": {
@@ -3953,11 +3953,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": -10, 
+            "repeatedTrigrams": -5, 
             "reviewHelpfulness": 32, 
-            "vineReview": 2
+            "vineReview": 1
         }, 
-        "finalScore": 35.7124
+        "finalScore": 39.7124
     }, 
     "R28TMPU98ARPAS": {
         "scoreDetails": {
@@ -3973,18 +3973,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.51
+        "finalScore": 2.51
     }, 
     "R2QW6YGB9D9VE": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -3993,11 +3993,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.5663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.3437
+        "finalScore": 2.3437
     }, 
     "R1QIVU9Z4ZZ1UL": {
         "scoreDetails": {
@@ -4013,11 +4013,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": -4, 
+            "repeatedTrigrams": -2, 
             "reviewHelpfulness": 69, 
             "vineReview": 0
         }, 
-        "finalScore": 65.8651
+        "finalScore": 67.8651
     }, 
     "RWRZGQLKX378K": {
         "scoreDetails": {
@@ -4033,11 +4033,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 5, 
             "vineReview": 0
         }, 
-        "finalScore": 10.8437
+        "finalScore": 9.8437
     }, 
     "R2RSUEKH3085WZ": {
         "scoreDetails": {
@@ -4053,18 +4053,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.51
+        "finalScore": 5.51
     }, 
     "R135AXSZ9YSWZV": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -4073,11 +4073,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.51
+        "finalScore": 2.51
     }, 
     "RT4OGK8VOMYJK": {
         "scoreDetails": {
@@ -4093,11 +4093,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": -0.49
+        "finalScore": -1.49
     }, 
     "RB11W4CEPLXF5": {
         "scoreDetails": {
@@ -4113,11 +4113,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.5663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 2.9437
+        "finalScore": 1.9437
     }, 
     "RXDVIVH0DLNOA": {
         "scoreDetails": {
@@ -4133,11 +4133,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": -0.49
+        "finalScore": -1.49
     }, 
     "R11VYVIZHRH627": {
         "scoreDetails": {
@@ -4153,18 +4153,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.51
+        "finalScore": 5.51
     }, 
     "RQUX3LLHB1EGL": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -4173,18 +4173,18 @@
             "reviewByUser": 1, 
             "variance": -1.69, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 2.2437
+        "finalScore": 1.2437
     }, 
     "R29QML6TR80UU0": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": -1, 
@@ -4193,16 +4193,16 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 0.4437
+        "finalScore": 1.4437
     }, 
     "R1RUI8A365URYB": {
         "scoreDetails": {
             "authorReliability": {
-                "easyGrader": -1, 
+                "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
                 "rank": 0.02647683008730692, 
                 "oneTimeReviewer": 1
@@ -4213,11 +4213,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 6, 
             "vineReview": 0
         }, 
-        "finalScore": 9.5365
+        "finalScore": 10.5365
     }, 
     "R12R4OPZ4MIGOH": {
         "scoreDetails": {
@@ -4233,11 +4233,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.91
+        "finalScore": 2.91
     }, 
     "R51EDRTB3M8C7": {
         "scoreDetails": {
@@ -4253,11 +4253,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.5663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": -0.6563
+        "finalScore": -1.6563
     }, 
     "R2ORRWIKHQHE1E": {
         "scoreDetails": {
@@ -4273,11 +4273,11 @@
             "reviewByUser": 1, 
             "variance": -10.89, 
             "reviewDate": -0.1663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 4, 
             "vineReview": 0
         }, 
-        "finalScore": -1.0563
+        "finalScore": -2.0563
     }, 
     "REIXVU5UQEYNX": {
         "scoreDetails": {
@@ -4293,18 +4293,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": -4, 
+            "repeatedTrigrams": -2, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": -0.5563
+        "finalScore": 1.4437
     }, 
     "R1DYYHZEEZQAKC": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": -1, 
@@ -4313,11 +4313,11 @@
             "reviewByUser": 1, 
             "variance": -0.09, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 0.8437
+        "finalScore": 1.8437
     }, 
     "R3VDLWM8DJUVX": {
         "scoreDetails": {
@@ -4333,18 +4333,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": -8.49
+        "finalScore": -9.49
     }, 
     "R30NCNFJ85XP9L": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -4353,11 +4353,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 7.51
+        "finalScore": 6.51
     }, 
     "R1HS0228OARD36": {
         "scoreDetails": {
@@ -4373,11 +4373,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 4.512
+        "finalScore": 3.512
     }, 
     "R2WANHT026S9W": {
         "scoreDetails": {
@@ -4393,11 +4393,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.06630000000000001, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.4437
+        "finalScore": 5.4437
     }, 
     "R22PADU1L17DNE": {
         "scoreDetails": {
@@ -4413,18 +4413,18 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 3.51
+        "finalScore": 2.51
     }, 
     "R3R07MRMNTPJ63": {
         "scoreDetails": {
             "authorReliability": {
                 "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
-                "rank": 0, 
+                "rank": 0.0, 
                 "oneTimeReviewer": 1
             }, 
             "shortAndRepetitive": 0, 
@@ -4433,16 +4433,16 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.3663, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 0, 
             "vineReview": 0
         }, 
-        "finalScore": 5.1437
+        "finalScore": 4.1437
     }, 
     "RXS5YQY9OIGVR": {
         "scoreDetails": {
             "authorReliability": {
-                "easyGrader": -1, 
+                "easyGrader": 1, 
                 "repetitiveReviewer": 1, 
                 "rank": 3.4534202674328654e-07, 
                 "oneTimeReviewer": 1
@@ -4453,11 +4453,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 4.51
+        "finalScore": 5.51
     }, 
     "R2DJFJ2HKT8TFD": {
         "scoreDetails": {
@@ -4473,11 +4473,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": 6.51
+        "finalScore": 5.51
     }, 
     "R2YKVUCBZC4VPI": {
         "scoreDetails": {
@@ -4493,11 +4493,11 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": 0.0, 
-            "repeatedTrigrams": 2, 
+            "repeatedTrigrams": 1, 
             "reviewHelpfulness": 2, 
-            "vineReview": 2
+            "vineReview": 1
         }, 
-        "finalScore": 64.0495
+        "finalScore": 62.0495
     }, 
     "R3PV5D8JPBSZ1": {
         "scoreDetails": {
@@ -4513,10 +4513,10 @@
             "reviewByUser": 1, 
             "variance": -0.49, 
             "reviewDate": -0.3663, 
-            "repeatedTrigrams": -2, 
+            "repeatedTrigrams": -1, 
             "reviewHelpfulness": 1, 
             "vineReview": 0
         }, 
-        "finalScore": -0.8563
+        "finalScore": 0.1437
     }
 }

@@ -1,0 +1,14 @@
+,authorEasyGrader,authorOneTimeReviewer,authorRank,authorRepetitiveReviewer,idReview,repeatedTrigrams,reviewByUser,reviewDate,reviewHelpfulness,reviewLength,shortAndRepetitive,variance,verifiedPurchase,vineReview,cluster,isolation forest,svm
+0,1,1,0.0001056594607724071,1,RWIUWD283G63B,2,1,0.0,4,-1,0,-1.21,1,0,cluster 2,normal,normal
+1,-1,1,6.720181961850044e-07,1,R2Y5U525INXCXD,2,1,0.0,1,-1,0,-1.21,1,0,cluster 2,normal,normal
+2,-1,-1,1.7944101761945518e-06,1,R7GI5M5CWSU2Q,2,1,0.0,0,1,0,-1.21,1,0,cluster 3,normal,normal
+3,1,1,5.04649079646241e-09,1,RIW84KL7JCTDS,2,1,0.0,1,-1,0,-0.01,1,0,cluster 2,normal,anomalous
+4,-1,1,2.668032445180271e-06,-4,R1IVO9XFHB8S8N,2,1,-0.0917,10,1,0,-1.21,1,0,cluster 1,anomalous,normal
+5,1,1,7.79461703747392e-09,1,R7HOT0MTNPK96,2,1,0.0,1,-1,0,-1.21,1,0,cluster 2,normal,normal
+6,1,1,1.42733270768583e-07,1,RZXNHYF72NORV,2,1,0.0,4,1,0,-1.21,1,0,cluster 2,normal,anomalous
+7,-1,-1,3.607024205030849e-05,1,R2EX2KHYCBDXFK,2,1,0.0,0,-1,0,-3.61,1,0,cluster 3,normal,anomalous
+8,1,1,7.0512264550734634e-09,1,R1IEO8VZ3N9LR,2,1,0.0,1,-1,0,-0.81,1,0,cluster 2,normal,normal
+9,-1,1,4.767309875141884e-06,1,R2RRJYF5XZSB62,2,1,0.0,10,-1,0,-1.21,1,0,cluster 2,normal,normal
+10,1,1,0.0,1,R3OK451JSBX99X,2,1,0.0,0,-1,0,-1.21,1,0,cluster 2,normal,normal
+11,1,1,4.902411373594387e-07,1,RG3F8OVUWO215,2,1,0.0,2,-1,0,-8.41,1,0,cluster 2,normal,anomalous
+12,-1,1,2.06981141718199e-05,1,RP8NCQ6ZPNOY2,2,1,-0.0917,9,1,0,-1.21,1,0,cluster 1,anomalous,anomalous

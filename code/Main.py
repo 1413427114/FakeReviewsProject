@@ -70,55 +70,58 @@ if __name__ == '__main__':
     import time
     start_time = time.time()
     
-    #asin =  #'B00PVDMTIC' 'B01LZ1Y47Q' 'B01AXOCCG2' 'B01GPEA1QC' 'B01MY98XEN'
-    #amazon_domain = 'https://www.amazon.it' 
-    asin, amazon_domain = readAsinAndDomain()
-
-    #crea la nuova directory per il nuovo file se non esiste
-    import os
-    directory = 'json/'+asin+'/'
-    if not os.path.exists(directory):
-        os.makedirs(directory)
+    asin_list = ['B00PVDMTIC', 'B01LZ1Y47Q', 'B01AXOCCG2', 'B01GPEA1QC', 'B01MY98XEN']
+    #asin_list = ['B00P73B1E4']
+    amazon_domain = 'https://www.amazon.it' 
+    #asin, amazon_domain = readAsinAndDomain()
     
-    print '\nScraping data . . .'
-    #scraping_data = scrapingAndTextAnalisys(asin, amazon_domain)
-    scraping_data = json.load(open('json/'+asin+'/sommario_'+asin+'.json'))
-    print 'done'
-    
-    print '\nChecking reviews scores . . .'
-    #reviews_check_score = checkingReviews(asin)
-    reviews_check_score = json.load(open('json/'+asin+'/analisi_'+asin+'.json'))
-    print 'done'
-    
-    print '\nDetecting anomalies . . .'
-    anomaly_detection = ad.anomalyDetection(asin)
-    #anomaly_detection = json.load(open('json/'+asin+'/anomaly_detection_'+asin+'.json'))
-    print 'done'
-    
-    print '\nProducing conclusive result . . .'
-    #conclusion = checkFinalResult(asin)
-    conclusion = json.load(open('json/'+asin+'/conclusion_'+asin+'.json'))
-    print 'done'
-
-    data = {
-        asin: {
-            'reviewsAndTrigrams': {
-                # 'reviews': reviews_data,
-                'reviews': scraping_data[asin]['reviews'],
-                # 'trigrams': trigrams_data
-                'trigrams': scraping_data[asin]['trigrams']
-            },
-            # 'productDetails': product_data,
-            'productDetails': scraping_data[asin]['productDetails'],
-            'reviewPartialScores': reviews_check_score,
-            'anomalyDetectionResult': anomaly_detection,
-            'possibleConclusion': conclusion
+    for asin in asin_list:
+        #crea la nuova directory per il nuovo file se non esiste
+        import os
+        directory = 'json/'+asin+'/'
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+        
+        print '\nScraping data . . .'
+        #scraping_data = scrapingAndTextAnalisys(asin, amazon_domain)
+        scraping_data = json.load(open('json/'+asin+'/sommario_'+asin+'.json'))
+        print 'Done'
+        
+        print '\nChecking reviews scores . . .'
+        #reviews_check_score = checkingReviews(asin)
+        reviews_check_score = json.load(open('json/'+asin+'/analisi_'+asin+'.json'))
+        print 'Done'
+        
+        print '\nDetecting anomalies . . .'
+        #anomaly_detection = ad.anomalyDetection(asin)
+        anomaly_detection = json.load(open('json/'+asin+'/anomaly_detection_'+asin+'.json'))
+        print 'Done'
+        
+        print '\nProducing conclusive result . . .'
+        conclusion = checkFinalResult(asin)
+        #conclusion = json.load(open('json/'+asin+'/conclusion_'+asin+'.json'))
+        print 'Done'
+        
+        print '\nCreate all_in_one.json file . . .'
+        data = {
+            asin: {
+                'reviewsAndTrigrams': {
+                    # 'reviews': reviews_data,
+                    'reviews': scraping_data[asin]['reviews'],
+                    # 'trigrams': trigrams_data
+                    'trigrams': scraping_data[asin]['trigrams']
+                },
+                # 'productDetails': product_data,
+                'productDetails': scraping_data[asin]['productDetails'],
+                'reviewPartialScores': reviews_check_score,
+                'anomalyDetectionResult': anomaly_detection,
+                'possibleConclusion': conclusion
+            }
         }
-    }
-
-    f = open('json/'+asin+'/all_in_one_' + asin + '.json', 'w')
-    json.dump(data, f, indent=4)
-    f.close
-    print '\nExecution completed\n'
-    print("--- %s seconds ---" % (time.time() - start_time))
+    
+        f = open('json/'+asin+'/all_in_one_' + asin + '.json', 'w')
+        json.dump(data, f, indent=4)
+        f.close
+        print '\nExecution completed\n'
+        print("--- %s seconds ---" % (time.time() - start_time))
     

@@ -9,6 +9,7 @@ rev_per_day = {}    # numero reviews per giorno
 rev_per_user = {}   # numero reviews per utente
 trigrams_data = {} #review che contengono trigrammi ripetuti
 avg_length_reviews = 0 #lunghezza media delle recensioni
+product_rating = 0 #rating medio del prodotto
 
 
 # creazione mappe relative all'analisi delle reviews per giorno e per utenti
@@ -37,7 +38,16 @@ def setAvgLengthOfReviews(reviews_info):
         avg_length_reviews += rev_length
     avg_length_reviews = avg_length_reviews / len(reviews_info)
     return avg_length_reviews
-        
+
+
+def setGlobalProductRating(product, reviews):
+    global product_rating
+    try: product_rating = float(product['productRating'])
+    except: 
+        review_ratings = []
+        for rev in reviews:
+            review_ratings.append(float(reviews[rev]['reviewRating'].replace(',', '.')))
+        product_rating = round(float(sum(review_ratings))/float(len(review_ratings)),1)
         
 # return 1 se acquisto verificato, -1 altrimenti        
 def checkVerifiedPurchase(review):
@@ -73,7 +83,7 @@ def checkReviewHelpfulness(review):
     
     
 def checkVariance(review, product):
-    diff = float(product['productRating']) - float(review['reviewRating'].replace(',','.'))
+    diff = product_rating - float(review['reviewRating'].replace(',','.'))
     return abs(diff)
 
 
@@ -86,7 +96,7 @@ def checkRepeatedTrigrams(review):
 
 def checkIsVineReview(review):
     if review['isAmazonVineReviewer']:
-        return 2
+        return 1
     return 0
     
 
@@ -106,7 +116,7 @@ def checkAuthorRank(review):
     author_rank = review['reviewAuthor']['rank']
     author_helpful_votes = review['reviewAuthor']['helpfulVotes']
     author_reviews_count = review['reviewAuthor']['totalReviewsCount']
-    if author_reviews_count and author_helpful_votes and author_rank:
+    if author_reviews_count>=0 and author_helpful_votes>=0 and author_rank>=0:
         rank_score = float(author_helpful_votes * author_reviews_count) / float(author_rank * 1000) 
         return rank_score
     return 0
@@ -122,7 +132,7 @@ def checkEasyGrader(review):
             for rev in reviews:
                 if reviews[rev]['reviewRating']==5:
                     five_stars_rating += 1
-            if (five_stars_rating * len(reviews))>=50:  #se almeno il 50% (5 su 10 nel nostro caso) sono 5 stelle è easyGrader
+            if (five_stars_rating * len(reviews))>=60:  #se almeno il 60% (6 su 10 nel nostro caso) sono 5 stelle è easyGrader
                 return -1
             return 1
     return 0
@@ -178,7 +188,7 @@ def checkReview(review, product):
     # checkSentence
     rh_score = checkReviewHelpfulness(review)
     v_score = -(round(math.pow(checkVariance(review, product), 2), 4)) if product else 0
-    rt_score = checkRepeatedTrigrams(review) * 2
+    rt_score = checkRepeatedTrigrams(review)
     vr_score = checkIsVineReview(review)
     rl_score = checkReviewLength(review)
     sr_score = -1 if (rt_score<0 and rl_score<0) else 0
@@ -222,13 +232,15 @@ def reviewsScore(asin):
     
     global avg_length_reviews
     avg_length_reviews = setAvgLengthOfReviews(reviews_data)
+    
+    setGlobalProductRating(product_data, reviews_data)
       
     # test reviews
     reviews_scores={}
     for review in reviews_data:
         id = reviews_data[review]['reviewId']
         reviews_scores[id] = checkReview(reviews_data[review], product_data)
-    print len(reviews_scores)
+
     return reviews_scores 
     
 if __name__ == '__main__':

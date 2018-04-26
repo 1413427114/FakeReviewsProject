@@ -9,6 +9,7 @@ import random
 import AuthorCheck as ac
 
 execute_sleep = False
+review_per_request_page = 50  #50 è il limite massimo, 10 è il valore di default di Amazon
 
 def parseDate(date_to_parse):
     string_of_date = (''.join(date_to_parse)).split('il ')[1]
@@ -132,14 +133,17 @@ def parseResponse(response, amazon_url, rev_index):
 
 def getReviews(asin, amazon_url):  
     # Add some recent user agent to prevent amazon from blocking the request 
-    # Find some chrome user agent strings  here https://udger.com/resources/ua-list/browser-detail?browser=Chrome
     user_agents = ['Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36',
                    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.1 Safari/537.36',
                    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36',
                    'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36',
                    'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2224.3 Safari/537.36',
                    'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36',
-                   'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36']
+                   'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36',
+                   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36', 
+                   'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36',
+                   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+                   'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36']
     headers = {'User-Agent': user_agents[random.randint(0, (len(user_agents)-1))]}
     
     #parameters for ajax request
@@ -148,9 +152,9 @@ def getReviews(asin, amazon_url):
         'deviceType': 'desktop',
         'filterByKeyword': '',  #example 'ciao+mamma+...'
         'filterByStar': 'all_stars',  #example 'five_star'
-        'formatType': '',  #
+        'formatType': '',
         'pageNumber': 0,
-        'pageSize': 50,
+        'pageSize': review_per_request_page,
         'reftag': '',
         'reviewerType': 'all_reviews',  #example 'avp_only_reviews'
         'scope': 'reviewsAjax',
@@ -246,7 +250,7 @@ def parseProduct(asin, amazon_url, retrying_time):
          return data
      
      except:
-         print ("Error")
+         print ("Error scraping product info")
 
     
 def executeScraper(asin, amazon_domain):

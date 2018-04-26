@@ -47,7 +47,7 @@ def trigramsPerRev(trigrams_data):
         trigrams_per_rev.append(repeated_trigrams)
     return trigrams_per_rev
 
-def plotRevPerDay(all_days, fig, ax):
+def plotRevPerDay(all_days, fig, axis):
     rpd_d = []
     for d in all_days:
         try: 
@@ -59,46 +59,46 @@ def plotRevPerDay(all_days, fig, ax):
     
     mpl_data = mdates.date2num(np.array(rpd_d))
        
-    ax[0].hist(mpl_data, bins=100)
-    ax[0].xaxis.set_major_locator(mdates.MonthLocator())
-    ax[0].xaxis.set_major_formatter(mdates.DateFormatter('%m.%y'))
-    ax[0].set_title("Frequenza recensioni per periodi")     
-    #ax[0].set_xlabel('Mesi', fontsize = 9)
-    #ax[0].set_ylabel('Frequenza', fontsize = 9)
+    axis.hist(mpl_data, bins=100, color='lightblue')
+    axis.xaxis.set_major_locator(mdates.MonthLocator())
+    axis.xaxis.set_major_formatter(mdates.DateFormatter('%m.%y'))
+    axis.set_title("Frequenza recensioni per periodi")     
+    #axis.set_xlabel('Mesi', fontsize = 9)
+    #axis.set_ylabel('Frequenza', fontsize = 9)
     plt.show()
     
-def plotRevPerUser(all_users, fig, ax):
+def plotRevPerUser(all_users, fig, axis):    
     l, v = zip(*Counter(all_users).items()) 
     labels, values = zip(*Counter(v).items())   
     
     indexes = np.arange(len(labels))
-    width = 0.5    
+    width = 0.07    
     
-    ax[1].set_title("Numero Recensioni x Numero Utenti")
-    #ax[1].set_xlabel('Numero Recensioni', fontsize = 9)
-    #ax[1].set_ylabel('Numero Utenti', fontsize = 9)
-    plt.sca(ax[1])
-    plt.bar(indexes, values, width)
+    axis.set_title("Numero Recensioni x Numero Utenti")
+    #axis.set_xlabel('Numero Recensioni', fontsize = 9)
+    #axis.set_ylabel('Numero Utenti', fontsize = 9)
+    plt.sca(axis)
+    plt.bar(indexes, values, width, color='lightblue')
     plt.xticks(indexes + width * 0.5, labels)
     plt.show()
 
-def plotTrigramsPerRep(trigrams_per_rep, fig, ax):
-    labels, values = zip(*Counter(trigrams_per_rep).items()) 
+def plotTrigramsPerRep(trigrams_per_rev, fig, axis):
+    labels, values = zip(*Counter(trigrams_per_rev).items()) 
 
     indexes = np.arange(len(labels))
-    width = 0.5    
+    width = 0.25    
     
-    ax[2].set_title("Numero Trigrammi Ripetuti x Numero Recensioni")
-    #ax[2].set_xlabel('Numero Trigrammi ripetuti', fontsize = 9)
-    #ax[2].set_ylabel('Numero Recensioni', fontsize = 9)
-    plt.sca(ax[2])
-    plt.bar(indexes, values, width)
+    axis.set_title("Numero Trigrammi Ripetuti x Numero Recensioni")
+    #axis.set_xlabel('Numero Trigrammi ripetuti', fontsize = 9)
+    #axis.set_ylabel('Numero Recensioni', fontsize = 9)
+    plt.sca(axis)
+    plt.bar(indexes, values, width, color='lightblue')
     plt.xticks(indexes + width * 0.5, labels)
     plt.show()
     
     
 if __name__ == '__main__':    
-    asin = 'B01AXOCCG2' #'B00PVDMTIC' 'B01LZ1Y47Q' 'B01AXOCCG2' 'B01GPEA1QC' 'B01MY98XEN'
+    asin = 'B00P73B1E4' #'B00PVDMTIC', 'B01LZ1Y47Q', 'B01MY98XEN', 'B01AXOCCG2', 'B01GPEA1QC', 'B00P73B1E4'
     
     review_data = json.load(open('json/'+asin+'/sommario_'+asin+'.json'))
     reviews_data = review_data[asin]['reviews']
@@ -106,13 +106,14 @@ if __name__ == '__main__':
     all_days = reviewsPerDay(reviews_data)
     all_users = reviewsPerUser(reviews_data)
     trigrams_per_rev = trigramsPerRev(trigrams_data)
-
+    
+    #rest comprende anche le recensioni con 0 trigrammi ripetuti
     rest = []
     for i in range(0,(len(all_days)-len(trigrams_per_rev))): rest.append(0)
     rest += trigrams_per_rev
     
     fig, ax = plt.subplots(3,1)
-    plotRevPerDay(all_days, fig, ax)
-    plotRevPerUser(all_users, fig, ax)   
-    plotTrigramsPerRep(trigrams_per_rev, fig, ax)
-    #plotTrigramsPerRep(rest, fig, ax)
+    plotRevPerDay(all_days, fig, axis=ax[0])
+    plotRevPerUser(all_users, fig, axis=ax[1])   
+    plotTrigramsPerRep(trigrams_per_rev, fig, axis=ax[2])
+    #plotTrigramsPerRep(rest, fig, axis=ax[2])
